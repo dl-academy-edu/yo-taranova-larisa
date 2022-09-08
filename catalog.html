@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=h, initial-scale=1.0">
-    <title>Document</title>
+    <title>Catalog</title>
 </head>
 <body>
     <header>
-        <img src="/static/SVG/DLK.svg" alt="DLK">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/catalog.css">
+        <img src="/static/DLK.svg" alt="DLK">
         <nav>
             <ul>
                 <li>
-                    <a href="#">Blog</a>
+                    <a href="blog.html">Blog</a>
                 </li>
                 <li>
                     <a href="/catalog.html">Catalog</a>
@@ -22,39 +24,40 @@
                 </li>
             </ul>         
         </nav>
-        <img src="/static/JPGandPNG/loupe.jpg" alt="loupe">
+        <img src="/static/loupe.jpg" alt="loupe">
         <a href="#">Contact Us</a>
     </header>
 
     <main>
+        <section class="Category Products">
 <h1>Category Products</h1>
 <a href="/index.html">home</a>
-<img src="/static/SVG/button3.svg" alt="#">
+<img src="/static/button3.svg" alt="#">
 <a href="#">Catalog</a>
-<ul>
+<ul class="flex">
     <li>
-        <img src="/static/JPGandPNG/sweater.png" alt="#">
+        <img src="/static/sweater.png" alt="#">
         <a href="#">APPAREL
             KIDS</a>
     </li>
     <li>
-        <img src="/static/JPGandPNG/sock.png" alt="#">
+        <img src="/static/sock.png" alt="#">
         <a href="#">HOLIDAY SHOP</a>
     </li>
     <li>
-        <img src="/static/JPGandPNG/deer.png" alt="#">
-        <a href="#">TOYS</a>
+        <img src="/static/deer.png" alt="#">
+        <a href="/toys.html">TOYS</a>
     </li>
     <li>
-        <img src="/static/JPGandPNG/monkey.png" alt="#">
+        <img src="/static/monkey.png" alt="#">
         <a href="#">ACCESSORIES</a>
     </li>
     <li>
-        <img src="/static/JPGandPNG/flamingo.png" alt="#">
+        <img src="/static/flamingo.png" alt="#">
         <a href="#">SALE</a>
     </li>
     <li>
-        <img src="/static/JPGandPNG/skirt.png" alt="#">
+        <img src="/static/skirt.png" alt="#">
         <a href="#">APPAREL ADULTS</a>
     </li>
 </ul>
@@ -62,12 +65,12 @@
 <p>Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</p>
 <p>A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
 <p>The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</p>
+</section>
     </main>
 
-    <article>
+    <article class="footer">
         <div>
             <h3>Navigation</h3>
-            <img src="#" alt="">
             <ul>
                 <li>
                     <a href="#">About Us</a>
@@ -91,7 +94,6 @@
         </div>
         <div>
             <h3>Customer Information</h3>
-            <img src="#" alt="">
             <ul>
                 <li>
                     <a href="#">Contact Us</a>
@@ -111,9 +113,11 @@
             </ul>
         </div>
         <div>
+            <form action="">
             <h3>Connect</h3>
-            <input type="Email">
-            <img src="#" alt="">
+            <input type="Email" class="email">
+            <button>JOIN</button>
+            </form>
             <ul>
                 <li>
                     <a href="#"></a>
@@ -156,4 +160,7 @@
         </div>            
         </footer>
     </article>
+      
 
+</body>
+</html>

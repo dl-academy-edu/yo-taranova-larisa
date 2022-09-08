@@ -1,0 +1,32 @@
+
+a {text-decoration: none; 
+    color: black;
+}
+
+
+.text {
+    background: #C29974;
+    color: #E1F0F7;
+}
+
+
+button {
+    color: white;
+    background: black;}
+
+.contacts {
+    background: #E1F0F7;
+}
+
+
+
+footer 
+{background:#434343;
+color: white;}
+
+article {background: #434343;
+        color: white;}
+
+li {
+    text-decoration: none;
+}

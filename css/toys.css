@@ -1,0 +1,41 @@
+.window {
+    background: #7D97DA33;
+}
+
+.text {
+    background: #C29974;
+    color: #E1F0F7;
+}
+
+.kids {
+    background:white ;}
+
+
+
+.contacts {
+    background: #E1F0F7;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer 
+{background:#434343;
+color: white;}
+
+article {background: #434343;
+        color: white;}
+
+.next { 
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.flex  {
+    display: flex;
+}
