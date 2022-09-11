@@ -1,32 +1,35 @@
+/* основные части сайта */
 
-a {text-decoration: none; 
-    color: black;
+a {
+    text-decoration: none;
+}
+
+.technical_references {
+    display: flex;
+    list-style-type: none;
+ }
+
+.technical_references .element {
+    margin: 10px;
 }
 
 
-.text {
-    background: #C29974;
-    color: #E1F0F7;
+
+header {
+    margin: 110px;
 }
 
-
-button {
-    color: white;
-    background: black;}
-
-.contacts {
-    background: #E1F0F7;
+main {
+    margin: 110px;
 }
-
-
 
 footer 
 {background:#434343;
-color: white;}
+}
 
-article {background: #434343;
-        color: white;}
 
-li {
-    text-decoration: none;
+
+.footer_color {
+    list-style-type: none;
+    color: white;
 }
