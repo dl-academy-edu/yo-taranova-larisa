@@ -1,35 +1,67 @@
-/* основные части сайта */
-
-a {
+* {
+    list-style-type: none;
     text-decoration: none;
+}
+
+.blog { 
+    padding-left: 269px;
 }
 
 .technical_references {
     display: flex;
-    list-style-type: none;
+    padding-top: 20px;
  }
 
 .technical_references .element {
     margin: 10px;
+    color: black;
 }
 
+.loupe {
+    position: absolute;
+    top: 65px;
+    right: 300px;
+}
 
+.contact {
+    padding-left: 985px;
+}
 
-header {
-    margin: 110px;
+.DLK {
+    position: absolute;
+    left: 109px;
+    top: 50px;
 }
 
 main {
     margin: 110px;
+
 }
 
-footer 
-{background:#434343;
-}
-
-
-
-.footer_color {
-    list-style-type: none;
+a {
     color: white;
 }
+
+.footer_elements {
+    display: flex;
+}
+
+footer {
+    background:#434343;
+    color: #AAAAAA;
+}
+
+.footer_color_email {
+    background: #666666;
+}
+
+.email_button {
+    background: black;
+    color: white;
+    min-height: 40px;
+    min-width: 81px;
+}
+
+
+
+

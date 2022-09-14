@@ -3,104 +3,87 @@
     position: relative;
 }
 
+.banner .crimson {
+    font-size: 20px;
+    padding-left: 133px;
+    font-family: 'Bona Nova', serif;
+}
+
+.banner .monster {
+    font-size: 40px;
+}
+
+.banner .monster {
+    padding-left: 133px;
+    padding-top: 89px;
+    padding-bottom: 20px;
+}
+
 .banner .button {
+    margin-left: 133px;
     font-size: 16px;
     min-width: 161px;
     background: black;
     color: white;
     min-height: 40px;
-    
+    margin-bottom: 60px;
+}
+
+.banner_img {
+    position: absolute;
+    right: 120px;
+    bottom: 30px;
 }
 
 .banner_footer {
-    background: #C29974;
     min-width: 452px;
     color: white;
-    height: 39px;
-    margin-bottom: 90px;
     text-align: center;
+    background: #C29974;
+    padding-top: 11px;
+    padding-bottom: 11px;
 }
 
 
 
 .catalog {
-    display: flex;
-    list-style-type: none;
     text-align: center;
+    display: flex;
     font-size: 26px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .catalog .products {
-    min-width: 280px;
-    min-height: 270px;
+    position: relative;
 }
 
-
-
-.women .color {
-    background: #70BBDC;
+.category_products {
+    font-size: 38px;
+    padding-top: 101px;
 }
 
-
-
-.footer_color .email {
-     background: #666666;
+.TOYS {
+    position: absolute;
+    bottom: 160px ;
+    right: -5px;
 }
 
-
-
- .kids {
-     background: #E1F0F7;
-}
-    
-/* ссылки на форумы */
-
-.forums {
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    justify-content: space-around;
-    align-items: center;
+.apparel {
+    position: absolute;
+    bottom: 175px ;
+    left: -4px;
 }
 
-
-
-.contacts {
-    background: #E1F0F7;
+.holiday {
+    position: absolute;
+    bottom: 175px ;
+    left: 6px;
 }
 
-a {
-    color: black;
-
-}
-
-.women {
-    padding-bottom: 90px;
-}
-
-.women_button {
-    padding: 9px;
-    min-width: 161px;
-    background: black;
-    color: white;
-}
-
-
-
-.banner .monster {
-    font-size: 40px;
-    
-}
-
-.banner .crimson {
-    font-size: 20px;
-}
-
-.modern {
-    width: 580px;
-    font-size: 16px;
-    padding-left: 12px;
+.accessories {
+    position: absolute;
+    bottom: 160px ;
+    right: 2px;
 }
 
 
@@ -111,18 +94,106 @@ a {
 
 .arrows .arrows_element {
     padding-right: 6px;
-    padding-bottom: 90px;
+    padding-bottom: 120px;
 }
 
 
 
- .kids .kids_button {
+.women_color {
+    background: #70BBDC;
+    font-family: 'Brygada 1918', serif;
+    font-size: 26px;
+}
+
+.women_img {
+    z-index: -1;
+    position: absolute;
+    right: 500px;
+    top: -125px;
+    margin-bottom: 90px;
+}
+
+.women_heading {
+    font-size: 38px;
+}
+
+.women_italic {
+    font-family: 'Bona Nova', serif;
+    font-size: 26px;
+}
+
+.women_button {
+    padding-top: 35px;
+    padding: 9px;
+    min-width: 161px;
     background: black;
+    color: white;
 }
 
-.banner .monster {
-    padding-left: 133px;
-    padding-top: 89px;
-    padding-bottom: 20px;
+
+.women {
+    position: relative;
+    width: 401px;
+    padding-left: 900px;
+    padding-bottom: 148px;
 }
 
+
+
+.kids_button {
+    padding-left: 22px; 
+    padding-right: 22px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background: black;
+    color: white;  
+}
+
+
+
+.forums {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.kids {
+    background-color: #E1F0F7;
+}
+
+.kids_italic {
+    font-family: 'Bona Nova', serif;
+    padding-top: 31px;
+}
+
+.contacts {
+    background: #E1F0F7;
+}
+
+.banner_01 {
+    position: absolute;
+    z-index: 1;
+    width: 65px;
+    height: 61px;
+    top: 25px;
+    left: 35px;
+}
+
+.banner_png {
+    position: absolute;
+    z-index: 1;
+    left: 35px;
+    top: 100px;
+}
+
+.modern {
+    width: 560px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.kids_section {
+    background: #E1F0F7;;
+}
