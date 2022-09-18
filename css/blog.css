@@ -1,0 +1,95 @@
+.footer_element_information {
+    position: absolute;
+    bottom: -975px;
+    left: 700px;
+}
+
+.footer_element_connect {
+    position: absolute;
+    bottom: -850px;
+    left: 1100px;
+}
+
+.blog_1 {
+    margin-top: 50px;
+    display: flex;
+    padding-inline-start: 0px;
+    justify-content: space-between;
+}
+
+.blog_2 {
+    margin-bottom: 53px;
+    display: flex;
+    padding-inline-start: 0px;
+    justify-content: space-between;
+}
+
+.best_financial {
+    width: 380px;
+}
+
+.category_pages {
+    color: black;
+    font-family: 'Bona Nova', serif;
+    font-size: 20px;
+}
+
+.blog_head {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top_5 {
+    width: 380px;
+}
+
+.best_financial {
+    width: 380px;
+}
+
+.company_logo {
+    width: 380px;
+}
+
+.head {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.date {
+    color: #818181;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.blog_button {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.blog_button_alt {
+    color: #C29974;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blog_footer {
+    position: relative;
+    display: flex;
+    padding-left: 473px;
+    padding-right: 473px;
+    justify-content: space-between;
+}
+
+.blog_button_vector_1 {
+    position: absolute;
+}
+
+.blog_button_vector_2 {
+    position: absolute;
+    top: 1387px;
+    left: 1500px;
+}
+

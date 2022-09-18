@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -9,6 +16,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=h, initial-scale=1.0">
@@ -16,7 +26,7 @@
 </head>
 <body>
 
-    <header>
+    <header class="container">
         <img src="/static/DLK.svg" alt="DLK" class="DLK">
         <nav>
             <ul class="technical_references">
@@ -37,7 +47,7 @@
     </nav>
     </header>
 
-    <main>
+    <main class="container">
         <section class="banner">
                     <img src="/static/01.png" alt="" class="banner_01">
                     <img src="/static/Banner-button.png" alt="" class="banner_png">
@@ -52,7 +62,7 @@
             <h2 class="category_products">Category Products</h2>
             <ul class="catalog">
                 <li>
-                    <img src="/static/sweater.png" alt="">
+                    <a href=""><img src="/static/sweater.png" alt=""></a>
                     <a href="#" class="products text apparel"><strong><br>APPAREL <br> KIDS</strong></a>
                 </li>
                 <li>
@@ -61,7 +71,7 @@
                 </li>
                 <li>
                     <img src="/static/deer.png" alt="">
-                    <a href="/pages/toys.html" class="products text TOYS"><strong><br>TOYS</strong></a>
+                    <a href="/pages/toys.html" class="products text toys"><strong><br>TOYS</strong></a>
                 </li>
                 <li>
                     <img src="/static/monkey.png" alt="">
@@ -83,7 +93,7 @@
                     <p class="women_italic">Guarantee</p>
                     <p class="women_italic">Credit</p>
                     <p class="women_text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-                    <p class="women_text">What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
+                    <p class="women_text_alt">What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
                     <a href="#" class="women_button"><strong>LEARN MORE</strong></a>
             </div>          
         </section>
@@ -91,26 +101,22 @@
         <section>
             <ul class="forums">
                 <li>
-                    <img src="/static//mail.svg" alt="">
-                    <a href="#" class="forums items"></a>
+                    <a href="#" class="forums items"><img src="/static//mail.svg" alt=""></a>
                 </li>
                 <li>
-                    <img src="/static/apple.svg" alt="">
-                    <a href="#" class="forums items"></a>
+                    <a href="#" class="forums items"><img src="/static/apple.svg" alt=""></a>
                 </li>
                 <li>
-                    <img src="/static/eltex.svg" alt="">
-                    <a href="#" class="forums items"></a>
+                    <a href="#" class="forums items"><img src="/static/eltex.svg" alt=""></a>
                 </li>
                 <li>
-                    <img src="/static/owox.svg" alt="">
-                    <a href="#" class="forums items"></a>
+                    <a href="#" class="forums items"><img src="/static/owox.svg" alt=""></a>
                 </li>
             </ul>
         </section>
 
-        <section>
-            <h2>Design Life Kids</h2>
+        <section class="kids">
+            <h2 class="kids_head">DESING LIFE KIDS</h2>
                 <ul class="kids_section"> 
                     <li> 
                         <p class="kids_italic">About Us</p>
@@ -118,24 +124,24 @@
                     <li>
                         <p class="kids_text">Some days i feel like i've been working on dlk my entire life and there are other days that i'am completely shocked that four years have flown by. It's simply magical.  </p>
                     </li> 
-                </ul> 
-                        <a href="#" class="kids_button">BUY NOW</a>
+                </ul>
+                  <a href="#" class="kids_button"><strong>BUY NOW</strong></a>
         </section>
 
         <section>
             <div class="contacts">
-            <h2 class="contacts">Contacts</h2>
-            <p class="contacts">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-            <img class="contacts" src="/static/map.png" alt="">
+            <h2 class="contacts_head">CONTACTS</h2>
+            <p class="contacts_text">Some days i feel liked i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+            <img class="contacts_img" src="/static/map.png" alt="">
             </div>
         </section>
         </main>
         
     <footer>
-        <section>
-            <div class="">
+        <section class="footer_main">
+            <div class="navigation">
                 <h3>Navigation</h3>
-                <ul>
+                <ul class="footer_color footer_list">
                     <li class="footer_color">
                         <a href="#">About Us</a>
                     </li>
@@ -154,16 +160,16 @@
                     <li class="footer_color">
                         <a href="#">Shop By Designer</a>
                     </li>
-                    <li>
-                        
-                    </li>
                 </ul>
             </div>
-            <div class="">
+            <div class="footer_element_information">
                 <h3>Customer Information</h3>
-                <ul class="footer_color">
+                <ul class="footer_color footer_list">
                     <li class="footer_color">
                         <a href="#">Contact Us</a>
+                    </li>
+                    <li class="footer_color">
+                        <a href="#">Sale Exclusions</a>
                     </li>
                     <li class="footer_color">
                         <a href="#">Shipping & Returns</a>
@@ -179,44 +185,44 @@
                     </li>
                 </ul>
             </div>
-            <div class="">
+            <div class="footer_element_connect">
                 <form action="submit">
                 <h3>Connect</h3>
-                <input type="Email" class="footer_color_email">
+                <input type="Email" class="footer_email">
                 <button class="email_button">JOIN</button>
             </form>
-                <ul class="footer_color">
-                    <li class="forums_footer">
-                        <a href="#"></a>
+                <ul class="forums_footer">
+                    <li>
+                        <a href="#" class="forums_footer element"><img src="/static/Facebook.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#"></a>
+                        <a href="#" class="forums_footer element"><img src="/static/Twitter.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#"></a>
+                        <a href="#" class="forums_footer element"><img src="/static/Pinterest.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#"></a>
+                        <a href="#" class="forums_footer element"><img src="/static/Instagram.png" alt=""></a>
                     </li>
                 </ul>
             </div>
             <section>
             <img src="#" alt="">
                 </div>
-                <div class="">
-                <p class="footer_elements">Company Rating</p>
-                <img src="/static/star.png" alt="">
+                <div class="footer_color footer_bottom">
+                <p>Company Rating</p>
+                <img src="/static/star.png" alt="" class="footer_img">
                 <div>
-                    <p class="footer_elements">Copyright © 2018 Dlk • Design Life Kids</p>
+                    <p class="footer_color">Copyright © 2018 Dlk • Design Life Kids</p>
                 </div>
 
                 <div>
-                    <p class="footer_elements">Web Design — Direct Line Development</p>
+                    <p>Web Design — Direct Line Development</p>
                 </section>   
             </section>        
         </footer>
         
-          
+       
     
 </body>
 </html>

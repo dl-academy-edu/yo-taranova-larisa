@@ -1,51 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/toys.css">
+    <link rel="stylesheet" href="/css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=h, initial-scale=1.0">
-    <link rel="stylesheet" href="css/toys.css">
-    <link rel="stylesheet" href="/css/style.css">
     <title>Toys</title>
 </head>
 <body>
-    <header>
-            <img src="/static/DLK.svg" alt="DLK">
+    <header class="container">
+        <img src="/static/DLK.svg" alt="DLK" class="DLK">
         <nav>
-            <ul>
-                <li>
-                    <a href="blog.html">Blog</a>
-                </li>
-                <li>
-                    <a href="/catalog.html">Catalog</a>
-                </li>
-                <li>
-                    <a href="#">About Us</a>
-                </li>
-            </ul>         
-        </nav>
-        <img src="/static/loupe.jpg" alt="loupe">
-        <a href="#">Contact Us</a>
+            <ul class="technical_references">
+            <li>
+                <a href="blog.html" class="technical_references element blog">BLOG</a>
+            </li>
+            <li>
+                <a href="catalog.html" class="technical_references element">CATALOG</a>
+             </li>
+            <li>
+                <a href="#" class="technical_references element">ABOUT US</a>
+            </li>
+             <li>
+                <img src="/static/loupe.jpg" alt="#" class="loupe">
+                <a href="#" class="technical_references element contact"><strong>CONTACT US</strong></a>
+             </li>
+    </ul>  
+    </nav>
     </header>
 <main>
-<h1>Toy for kids</h1>
-<a href="/index.html">home</a>
+<h1 class="toys_head">TOY FOR KIDS</h1>
+<a href="/index.html" class="toys_list">home</a>
 <img src="/static/button3.svg" alt="#">
-<a href="/catalog.html">Catalog</a>
+<a href="/catalog.html" class="toys_list">Catalog</a>
 <img src="/static//button3.svg" alt="#">
-<a href="#">Toys</a>
+<a href="#" class="toys_list">Toys</a>
+<div class="technical">
+    <img src="/static/cost.png" alt="" class="technical_1">
+    <img src="/static/color.png" alt="" class="technical_2">
+    <img src="/static/delivery.png" alt="" class="technical_3">
+    <img src="/static/amount.png" alt="" class="technical_4">
+    <button class="techncal_button">APPLY</button>
+</div>
 
-<img src="static/polzunok.jpg" type="window" alt="">
-<img src="/static/list.jpg" type="window" alt="">
-<img src="/static/list2.jpg" type="window" alt="">
-<img src="/static/list3.jpg" type="window" alt="">
-<button>Apply</button>
-
-<ul class="flex">
+<ul class="catalog_1">
     <li>
         <img src="/static/shark.jpg" alt="#">
         <a href="#">SHARKY BEAN BAG CHAIR COVER</a>
-        <a href="#">$60.00 USD</a>
+        <a href="#" >$60.00 USD</a>
     </li>
     <li>
         <img src="/static/kulon.jpg" alt="#">
@@ -58,7 +68,7 @@
         <a href="#">$60.00 USD</a>
     </li>
 </ul>
-<ul class="flex">
+<ul class="catalog_2">
     <li>
         <img src="/static/Toy1.jpg" alt="#">
         <a href="#">GATCHA GATCHA GUMBALL MACHINE</a>
@@ -76,105 +86,99 @@
     </li>
 </ul>
 
-<img src="/static/button4.svg" alt="#">
-<button type="next">1</button>
-<button type="next">2</button>
-<button type="next">3</button>
-<button type="next">4</button>
-<img src="/static/button5.svg" alt="#">
+<img src="/static/vector_left.svg" alt="" class="blog_button_vector_1">
+<div class="blog_footer">
+<a href="#" class="blog_button_alt">1</a>
+<a href="#" class="blog_button">2</a>
+<a href="#" class="blog_button">3</a>
+<a href="#" class="blog_button">4</a>
+</div>
+<img src="/static/vector_right.svg" alt="" class="blog_button_vector_2">
 </main>
 
-<article class="footer">
-    <div>
-        <h3>Navigation</h3>
-        <ul>
-            <li>
-                <a href="#">About Us</a>
-            </li>
-            <li>
-                <a href="#">Blog</a>
-            </li>
-            <li>
-                <a href="#">Design Services</a>
-            </li>
-            <li>
-                <a href="#">Featured On</a>
-            </li>
-            <li>
-                <a href="#">2018 Holiday Catalog</a>
-            </li>
-            <li>
-                <a href="#">Shop By Designer</a>
-            </li>
-        </ul>
-    </div>
-    <div>
-        <h3>Customer Information</h3>
-        <ul>
-            <li>
-                <a href="#">Contact Us</a>
-            </li>
-            <li>
-                <a href="#">Shipping & Returns</a>
-            </li>
-            <li>
-                <a href="#">Terms & Conditions</a>
-            </li>
-            <li>
-                <a href="#">Privacy Policy</a>
-            </li>
-            <li>
-                <a href="#">Search</a>
-            </li>
-        </ul>
-    </div>
-    <div>
-        <h3>Connect</h3>
-        <input type="Email" class="email">
-        <button>JOIN</button>
-        <ul>
-            <li>
-                <a href="#"></a>
-            </li>
-            <li>
-                <a href="#"></a>
-            </li>
-            <li>
-                <a href="#"></a>
-            </li>
-            <li>
-                <a href="#"></a>
-            </li>
-        </ul>
-    </div>
-    <div>
+<footer>
+    <section class="footer_main">
+        <div class="navigation">
+            <h3>Navigation</h3>
+            <ul class="footer_color footer_list">
+                <li class="footer_color">
+                    <a href="#">About Us</a>
+                </li>
+                <li class="footer_color">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="footer_color">
+                    <a href="#">Design Services</a>
+                </li>
+                <li class="footer_color">
+                    <a href="#">Featured On</a>
+                </li>
+                <li class="footer_color">
+                    <a href="#">2018 Holiday Catalog</a>
+                </li>
+                <li class="footer_color">
+                    <a href="#">Shop By Designer</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_element_information">
+            <h3>Customer Information</h3>
+            <ul class="footer_color footer_list">
+                <li class="footer_color">
+                    <a href="#">Contact Us</a>
+                </li>
+                <li class="footer_color">
+                    <a href="#">Sale Exclusions</a>
+                </li>
+                <li class="footer_color">
+                    <a href="#">Shipping & Returns</a>
+                </li>
+                <li class="footer_color">
+                    <a href="#">Terms & Conditions</a>
+                </li>
+                <li class="footer_color">
+                    <a href="#">Privacy Policy</a>
+                </li>
+                <li class="footer_color">
+                    <a href="#">Search</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_element_connect">
+            <form action="submit">
+            <h3>Connect</h3>
+            <input type="Email" class="footer_email">
+            <button class="email_button">JOIN</button>
+        </form>
+            <ul class="forums_footer">
+                <li>
+                    <a href="#" class="forums_footer element"><img src="/static/Facebook.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#" class="forums_footer element"><img src="/static/Twitter.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#" class="forums_footer element"><img src="/static/Pinterest.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#" class="forums_footer element"><img src="/static/Instagram.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+        <section>
         <img src="#" alt="">
-    </div>
-    <footer>
-        <div>
-        <p>Company Rating</p>
-        <div class="rating-area">
-            <input type="radio" id="star-5" name="rating" value="5">
-            <label for="star-5" title="Оценка «5»"></label>	
-            <input type="radio" id="star-4" name="rating" value="4">
-            <label for="star-4" title="Оценка «4»"></label>    
-            <input type="radio" id="star-3" name="rating" value="3">
-            <label for="star-3" title="Оценка «3»"></label>  
-            <input type="radio" id="star-2" name="rating" value="2">
-            <label for="star-2" title="Оценка «2»"></label>    
-            <input type="radio" id="star-1" name="rating" value="1">
-            <label for="star-1" title="Оценка «1»"></label>
-        </div> 
-    </div>
-    <div>
-        <p>Copyright © 2018 Dlk • Design Life Kids</p>
-    </div>
-    <div>
-        <p>Web Design — Direct Line Development</p>
-    </div>            
-    </footer>
-</article>
-  
+            </div>
+            <div class="footer_color footer_bottom">
+            <p>Company Rating</p>
+            <img src="/static/star.png" alt="" class="footer_img">
+            <div>
+                <p class="footer_color">Copyright © 2018 Dlk • Design Life Kids</p>
+            </div>
 
-</body>
-</html>
+            <div>
+                <p>Web Design — Direct Line Development</p>
+            </section> 
+            
+            
+        </section>        
+    </footer>

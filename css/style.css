@@ -1,3 +1,9 @@
+body {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 * {
     list-style-type: none;
     text-decoration: none;
@@ -20,22 +26,22 @@
 .loupe {
     position: absolute;
     top: 65px;
-    right: 300px;
+    right: 450px;
 }
 
 .contact {
-    padding-left: 985px;
+    padding-left: 610px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .DLK {
     position: absolute;
-    left: 109px;
     top: 50px;
+    left: 336px;
 }
 
 main {
     margin: 110px;
-
 }
 
 a {
@@ -49,10 +55,14 @@ a {
 footer {
     background:#434343;
     color: #AAAAAA;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.footer_color_email {
+.footer_email {
     background: #666666;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: #666666;
 }
 
 .email_button {
@@ -62,6 +72,52 @@ footer {
     min-width: 81px;
 }
 
+.footer_color {
+    color: white;
+    padding-inline-start: 0px;
+    padding-bottom: 15px;
+}
 
+.forums_footer {
+    display: flex;
+    line-height: 22px;
+    padding-inline-start: 0px;
+}
 
+.forums_footer .element {
+    padding-left: 10px;
+}
 
+.footer_element_connect {
+    line-height: 22px;
+}
+
+.footer_bottom::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 1180px;
+        height: 1px;
+        background: #666666;
+        z-index: 2;
+    }
+
+    
+.footer_bottom {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.footer_img {
+    position: absolute;
+    bottom: 130px;
+    left: 150px;
+}
+
+.footer_main {
+    padding-right: 110px;
+    padding-left: 110px;
+    padding-top: 110px;
+}

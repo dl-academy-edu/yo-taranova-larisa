@@ -1,41 +1,65 @@
-.window {
-    background: #7D97DA33;
-}
-
-.text {
-    background: #C29974;
-    color: #E1F0F7;
-}
-
-.kids {
-    background:white ;}
 
 
-
-.contacts {
-    background: #E1F0F7;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-footer 
-{background:#434343;
-color: white;}
-
-article {background: #434343;
-        color: white;}
-
-.next { 
-    color: white;
-}
-
-li {
-    list-style-type: none;
-}
-
-.flex  {
+.catalog_1 {
     display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-inline-start: 0px;
+}
+
+.catalog_2 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-inline-start: 0px;
+}
+
+.toys_head {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.toys_list {
+    font-family: 'Bona Nova', serif;
+    color: black;
+    font-size: 20px;
+}
+
+.technical {
+    margin-top: 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 102px;
+}
+
+.technical::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 350px;
+    left: 250px;
+    width:1400px;
+    min-height: 254px;
+    background: #E1F0F7;
+    z-index: -1;
+}
+
+.techncal_button {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 22px;
+    padding-left: 22px;
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+    color: white;
+    margin-top: 24px;
+}
+
+.blog_footer {
+    position: relative;
+    display: flex;
+    padding-left: 473px;
+    padding-right: 473px;
+    justify-content: space-between;
 }

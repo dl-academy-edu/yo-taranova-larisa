@@ -1,12 +1,99 @@
-.flex  {
-    display: flex;
+.footer_element_information {
+    position: absolute;
+    bottom: -830px;
+    left: 700px;
 }
 
-li {
-    list-style-type: none;
+.footer_element_connect {
+    position: absolute;
+    bottom: -700px;
+    left: 1100px;
 }
+
+
 
 .product_description {
-    
-    flex: unset;
+    margin-left: 200px;
+    font-family: 'Open Sans', sans-serif;
+    width: 680px;
 }
+
+.product_description_main {
+    margin-left: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+}
+
+.catalog_1 {
+    text-align: center;
+    position: relative;
+    font-size: 26px;
+    justify-content: space-between;
+    margin-right: 305px;
+    color: black;
+    padding-inline-start: 0px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.catalog_2 {
+    margin-right: 110px;
+    text-align: center;
+    position: relative;
+    font-size: 26px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    padding-inline-start: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.category_pages {
+    color: black;
+    font-family: 'Bona Nova', serif;
+    font-size: 20px;
+}
+
+.category_products_head {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apparel_kids {
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+
+.holiday {
+    position: absolute;
+    top: 100px;
+    left: 375px;
+}
+
+.toys {
+    position: absolute;
+    top: 120px;
+    left: 700px;
+}
+
+
+
+.accessories {
+    position: absolute;
+    top: 115px;
+    left: 40px;
+}
+
+.sale {
+    position: absolute;
+    top: 115px;
+    left: 400px;
+}
+
+.apparel_adults {
+    position: absolute;
+    top: 100px;
+    left: 670px ;
+}
+
+

@@ -1,168 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/catalog.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=h, initial-scale=1.0">
     <title>Catalog</title>
-</head>
-<body>
-    <header>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/catalog.css">
-        <img src="/static/DLK.svg" alt="DLK">
+    <header class="container">
+        <img src="/static/DLK.svg" alt="DLK" class="DLK">
         <nav>
-            <ul>
+            <ul class="technical_references">
                 <li>
-                    <a href="blog.html">Blog</a>
+                    <a href="blog.html" class="technical_references element blog">BLOG</a>
                 </li>
                 <li>
-                    <a href="/catalog.html">Catalog</a>
+                    <a href="catalog.html" class="technical_references element">CATALOG</a>
                 </li>
                 <li>
-                    <a href="#">About Us</a>
+                    <a href="#" class="technical_references element">ABOUT US</a>
                 </li>
-            </ul>         
-        </nav>
-        <img src="/static/loupe.jpg" alt="loupe">
-        <a href="#">Contact Us</a>
+                <li>
+                    <img src="/static/loupe.jpg" alt="#" class="loupe">
+                    <a href="#" class="technical_references element contact"><strong>CONTACT US</strong></a>
+                </li>
+    </ul>  
+    </nav>
     </header>
 
     <main>
         <section class="Category Products">
-<h1>Category Products</h1>
-<a href="/index.html">home</a>
-<img src="/static/button3.svg" alt="#">
-<a href="#">Catalog</a>
-<ul class="flex">
+    <h1 class="category_products_head">Category Products</h1>
+    <a href="/pages/index.html" class="category_pages">Home</a>
+    <img src="/static/button3.svg" alt="#">
+    <a href="#" class="category_pages">Catalog</a>
+    <ul class="catalog_1">
     <li>
         <img src="/static/sweater.png" alt="#">
-        <a href="#">APPAREL
-            KIDS</a>
+        <a href="#" class="apparel_kids">APPAREL <br> KIDS</a>
     </li>
     <li>
         <img src="/static/sock.png" alt="#">
-        <a href="#">HOLIDAY SHOP</a>
+        <a href="#" class="holiday">HOLIDAY <br> SHOP</a>
     </li>
     <li>
         <img src="/static/deer.png" alt="#">
-        <a href="/toys.html">TOYS</a>
+        <a href="/toys.html" class="toys">TOYS</a>
     </li>
     </ul>
-    <ul class="flex">
+    <ul class="catalog_2">
     <li>
         <img src="/static/monkey.png" alt="#">
-        <a href="#">ACCESSORIES</a>
+        <a href="#" class="accessories">ACCESSORIES</a>
     </li>
     <li>
         <img src="/static/flamingo.png" alt="#">
-        <a href="#">SALE</a>
+        <a href="#" class="sale">SALE</a>
     </li>
     <li>
         <img src="/static/skirt.png" alt="#">
-        <a href="#">APPAREL ADULTS</a>
+        <a href="#" class="apparel_adults">APPAREL <br> ADULTS</a>
     </li>
 </ul>
-<h2 class="product_description">Product Description</h2>
+<h2 class="product_description_main">Product Description</h2>
 <p class="product_description">Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</p>
 <p class="product_description">A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
 <p class="product_description">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</p>
 </section>
     </main>
 
-    <article class="footer">
-        <div>
-            <h3>Navigation</h3>
-            <ul>
-                <li>
-                    <a href="#">About Us</a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Design Services</a>
-                </li>
-                <li>
-                    <a href="#">Featured On</a>
-                </li>
-                <li>
-                    <a href="#">2018 Holiday Catalog</a>
-                </li>
-                <li>
-                    <a href="#">Shop By Designer</a>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <h3>Customer Information</h3>
-            <ul>
-                <li>
-                    <a href="#">Contact Us</a>
-                </li>
-                <li>
-                    <a href="#">Shipping & Returns</a>
-                </li>
-                <li>
-                    <a href="#">Terms & Conditions</a>
-                </li>
-                <li>
-                    <a href="#">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="#">Search</a>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <form action="">
-            <h3>Connect</h3>
-            <input type="Email" class="email">
-            <button>JOIN</button>
+    <footer>
+        <section class="footer_main">
+            <div class="navigation">
+                <h3>Navigation</h3>
+                <ul class="footer_color footer_list">
+                    <li class="footer_color">
+                        <a href="#">About Us</a>
+                    </li>
+                    <li class="footer_color">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="footer_color">
+                        <a href="#">Design Services</a>
+                    </li>
+                    <li class="footer_color">
+                        <a href="#">Featured On</a>
+                    </li>
+                    <li class="footer_color">
+                        <a href="#">2018 Holiday Catalog</a>
+                    </li>
+                    <li class="footer_color">
+                        <a href="#">Shop By Designer</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_element_information">
+                <h3>Customer Information</h3>
+                <ul class="footer_color footer_list">
+                    <li class="footer_color">
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li class="footer_color">
+                        <a href="#">Sale Exclusions</a>
+                    </li>
+                    <li class="footer_color">
+                        <a href="#">Shipping & Returns</a>
+                    </li>
+                    <li class="footer_color">
+                        <a href="#">Terms & Conditions</a>
+                    </li>
+                    <li class="footer_color">
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li class="footer_color">
+                        <a href="#">Search</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_element_connect">
+                <form action="submit">
+                <h3>Connect</h3>
+                <input type="Email" class="footer_email">
+                <button class="email_button">JOIN</button>
             </form>
-            <ul>
-                <li>
-                    <a href="#"></a>
-                </li>
-                <li>
-                    <a href="#"></a>
-                </li>
-                <li>
-                    <a href="#"></a>
-                </li>
-                <li>
-                    <a href="#"></a>
-                </li>
-            </ul>
-        </div>
-        <div>
+                <ul class="forums_footer">
+                    <li>
+                        <a href="#" class="forums_footer element"><img src="/static/Facebook.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#" class="forums_footer element"><img src="/static/Twitter.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#" class="forums_footer element"><img src="/static/Pinterest.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#" class="forums_footer element"><img src="/static/Instagram.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <section>
             <img src="#" alt="">
-        </div>
-        <footer>
-            <div>
-            <p>Company Rating</p>
-            <div class="rating-area">
-                <input type="radio" id="star-5" name="rating" value="5">
-                <label for="star-5" title="Оценка «5»"></label>	
-                <input type="radio" id="star-4" name="rating" value="4">
-                <label for="star-4" title="Оценка «4»"></label>    
-                <input type="radio" id="star-3" name="rating" value="3">
-                <label for="star-3" title="Оценка «3»"></label>  
-                <input type="radio" id="star-2" name="rating" value="2">
-                <label for="star-2" title="Оценка «2»"></label>    
-                <input type="radio" id="star-1" name="rating" value="1">
-                <label for="star-1" title="Оценка «1»"></label>
-            </div> 
-        </div>
-        <div>
-            <p>Copyright © 2018 Dlk • Design Life Kids</p>
-        </div>
-        <div>
-            <p>Web Design — Direct Line Development</p>
-        </div>            
-        </footer>
-    </article>
-      
+                </div>
+                <div class="footer_color footer_bottom">
+                <p>Company Rating</p>
+                <img src="/static/star.png" alt="" class="footer_img">
+                <div>
+                    <p class="footer_color">Copyright © 2018 Dlk • Design Life Kids</p>
+                </div>
 
+                <div>
+                    <p>Web Design — Direct Line Development</p>
+                </section>   
+            </section>        
+        </footer>
+        
+       
+    
 </body>
 </html>
