@@ -1,8 +1,38 @@
+.footer_element_information {
+    position: absolute;
+    bottom: -1148px;
+    left: 700px;
+}
 
+.footer_element_connect {
+    position: absolute;
+    bottom: -1017px;
+    left: 1220px;
+}
+
+.toys_button_vector_1 {
+    position: absolute;
+}
+
+.toys_button_vector_2 {
+    position: absolute;
+    top: 1505px;
+    left: 1500px;
+}
+
+.toys_button {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.toys_button_alt {
+    color: #C29974;
+    font-family: 'Montserrat', sans-serif;
+}
 
 .catalog_1 {
-    display: flex;
     text-align: center;
+    display: flex;
     justify-content: space-between;
     padding-inline-start: 0px;
 }
@@ -25,14 +55,6 @@
     font-size: 20px;
 }
 
-.technical {
-    margin-top: 92px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 102px;
-}
-
 .technical::after {
     content: '';
     display: block;
@@ -43,6 +65,7 @@
     min-height: 254px;
     background: #E1F0F7;
     z-index: -1;
+    opacity: 20% ;
 }
 
 .techncal_button {
@@ -62,4 +85,139 @@
     padding-left: 473px;
     padding-right: 473px;
     justify-content: space-between;
+}
+
+.catalog_name {
+    color: black;
+    font-family: 'Open Sans', sans-serif
+}
+
+.catalog_price {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.color_checkbox,
+.delivery_radio,
+.amount_radio {
+    display: none;
+}
+
+.Color_text,
+.delivery_text,
+.amount_text {
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Color_list {
+    position: relative;
+    right: 200px;
+    top: 15px;
+}
+
+.delivery_list {
+    position: relative;
+    right: 225px;
+    top: 15px;
+}
+
+.delivery_text {
+    position: relative;
+}
+
+.color_label::before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 19px;
+    width: 19px;
+    border: 2px solid #C29974;
+    background: transparent;
+    border-radius: 20%;
+    left: 0px;
+}
+
+.Color_text::before {
+    content: url('/static/button6.png');
+    position: absolute;
+    display: block;
+    background: white;
+    height: 19px;
+    width: 19px;
+    border-radius: 20%;
+    left: -38px;
+    opacity: 0;
+}
+
+.delivery_label::before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #C29974;
+    left: 0px;
+    border-radius: 50%;
+}
+
+.delivery_text::before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 12px;
+    width: 12px;
+    background: #C29974;
+    border-radius: 50%;
+    left: -34px;
+    top: 6px;
+    opacity: 0;
+}
+
+.list_name {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    right: 125px;
+}
+
+.settings {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 102px;
+    margin-top: 92px;
+    align-items: flex-start;
+}
+
+.cost_range {
+    position: relative;
+    top: 60px;
+    left: -72px;
+    height: 24px;
+    width: 188px;
+}
+
+.range_number_0 {
+    position: relative;
+    top: 70px;
+    left: -300px;
+}
+
+.range_number_500 {
+    position: relative;
+    top: 70px;
+    left: -185px;
+}
+
+.color_checkbox:checked + .Color_text::before {
+    opacity: 1;
+}
+
+.Color_text {
+    position: relative;
+    top: 2px;
+}
+
+.delivery_radio:checked + .delivery_text::before {
+    opacity: 1;
 }

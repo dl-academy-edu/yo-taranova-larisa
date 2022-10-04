@@ -9,6 +9,12 @@ body {
     text-decoration: none;
 }
 
+.DLK {
+    position: absolute;
+    top: 45px;
+    left: 336px;
+}
+
 .blog { 
     padding-left: 269px;
 }
@@ -18,26 +24,24 @@ body {
     padding-top: 20px;
  }
 
-.technical_references .element {
+.technical_references {
     margin: 10px;
     color: black;
 }
 
+.element {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .loupe {
     position: absolute;
-    top: 65px;
+    top: 60px;
     right: 450px;
 }
 
 .contact {
     padding-left: 610px;
     font-family: 'Open Sans', sans-serif;
-}
-
-.DLK {
-    position: absolute;
-    top: 50px;
-    left: 336px;
 }
 
 main {
@@ -47,6 +51,8 @@ main {
 a {
     color: white;
 }
+
+
 
 .footer_elements {
     display: flex;
@@ -100,9 +106,8 @@ footer {
         height: 1px;
         background: #666666;
         z-index: 2;
-    }
+}
 
-    
 .footer_bottom {
     position: relative;
     display: flex;

@@ -25,9 +25,8 @@
     <title>Main</title>
 </head>
 <body>
-
     <header class="container">
-        <img src="/static/DLK.svg" alt="DLK" class="DLK">
+        <a href="/pages/index.html"></a><img src="/static/DLK.svg" alt="DLK" class="DLK"></a>
         <nav>
             <ul class="technical_references">
                 <li>
@@ -41,7 +40,7 @@
                 </li>
                 <li>
                     <img src="/static/loupe.jpg" alt="#" class="loupe">
-                    <a href="#" class="technical_references element contact"><strong>CONTACT US</strong></a>
+                    <a href="/pages/contact-us.html" class="technical_references contact"><strong>CONTACT US</strong></a>
                 </li>
     </ul>  
     </nav>
@@ -55,7 +54,7 @@
                     <p class="banner crimson">Designed in Slovenia</p>
                     <button class="banner button"><strong>EXPLORE NOW</strong></button>
             <img class="banner_img" src="/static/monster.png" alt="">
-            <p class="banner banner_footer"><strong>FREE (CONTINENTAL) USA SHIPPING ON ALL ORDERS OF $100 USD OR MORE!</strong></p>
+            <p class="banner banner_footer">FREE (CONTINENTAL) USA SHIPPING ON ALL ORDERS OF $100 USD OR MORE!</p>
         </section>
 
         <section>
@@ -221,8 +220,26 @@
                 </section>   
             </section>        
         </footer>
-        
-       
-    
+
+        <form action="#">
+            <section class="contact_name">
+                <div class="imput_text_list">
+                    <p class="name_text">Name</p>
+                        <input type="text" class="name_input">
+                    <p class="phone_text list">Phone</p>
+                        <input type="Phone" class="input_line">
+                    <p class="email_text" >Email</p>
+                        <input type="Email" class="input_line_email">
+                    <p class="message_text">Message</p>
+                        <input type="text" class="message_input">
+                </div>
+                    <label for="checkbox_message_id" class="checkbox_label">
+                        <input type="checkbox" id="checkbox_message_id" class="checkbox_message" checked>
+                    <p class="checkbox_text">By clicking on the button, you consent to the processing of your personal data</p>
+                    </label>
+                <button class="contact_button"><strong>SUBMIT</strong></button>
+            </section>
+            </form>
+
 </body>
 </html>

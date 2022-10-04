@@ -11,7 +11,7 @@ footer {
 .footer_element_connect {
     position: absolute;
     bottom: -1800px;
-    left: 1100px;
+    left: 1220px;
 }
 
 .banner {
@@ -28,8 +28,6 @@ footer {
 .banner_01 {
     position: absolute;
     z-index: 1;
-    width: 65px;
-    height: 61px;
     top: 25px;
     left: 35px;
 }
@@ -70,6 +68,7 @@ footer {
 }
 
 .banner_footer {
+    font-family: 'Open Sans', sans-serif;
     min-width: 452px;
     color: white;
     text-align: center;
@@ -295,8 +294,6 @@ footer {
     font-size: 38px;
 }
 
-
-
 .modern {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -304,3 +301,76 @@ footer {
     padding-left: 20px;
 }
 
+
+.contact_button {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 22px;
+    padding-left: 22px;
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+    color: white;
+    margin-bottom: 111px;
+}
+
+.message_input {
+    padding-top: 14px;
+    padding-bottom: 136px;
+    border-radius: 0%;
+    width: 600px;
+}
+
+.checkbox_message {
+    display: none;
+}
+
+.checkbox_label::before {
+        content: '';
+        position: absolute;
+        display: block;
+        height: 19px;
+        width: 19px;
+        border: 2px solid #C29974;
+        background: transparent;
+        border-radius: 20%;
+        top: 767px;
+        left: 333px;
+    }
+
+    .checkbox_text::after {
+        position: absolute;
+        content: url('/static/button6.png');
+        display: block;
+        height: 19px;
+        width: 19px;
+        top: 770px;
+        left: 337px;
+        opacity: 0;
+}
+
+.imput_text_list {
+    border: #000;
+    width: 600px;
+}
+
+.contact_name {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.checkbox_text {
+    padding-top: 22px;
+}
+
+.checkbox_text {
+    cursor: pointer;
+    margin-left: 32px;
+}
+
+.checkbox_message:checked + .checkbox_text::after {
+    opacity: 1;
+}
+
+.imput_text_list {
+    border: #000;
+    width: 600px;
+}

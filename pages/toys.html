@@ -32,68 +32,176 @@
              <li>
                 <img src="/static/loupe.jpg" alt="#" class="loupe">
                 <a href="#" class="technical_references element contact"><strong>CONTACT US</strong></a>
-             </li>
+            </li>
     </ul>  
     </nav>
     </header>
 <main>
 <h1 class="toys_head">TOY FOR KIDS</h1>
-<a href="/index.html" class="toys_list">home</a>
+<a href="/pages/index.html" class="toys_list">home</a>
 <img src="/static/button3.svg" alt="#">
-<a href="/catalog.html" class="toys_list">Catalog</a>
+<a href="/pages/catalog.html" class="toys_list">Catalog</a>
 <img src="/static//button3.svg" alt="#">
 <a href="#" class="toys_list">Toys</a>
 <div class="technical">
-    <img src="/static/cost.png" alt="" class="technical_1">
-    <img src="/static/color.png" alt="" class="technical_2">
-    <img src="/static/delivery.png" alt="" class="technical_3">
-    <img src="/static/amount.png" alt="" class="technical_4">
-    <button class="techncal_button">APPLY</button>
+    <section class="technical">
+        <form action="#" class="settings">
+        <p>Cost</p>
+        <input  type="range"
+                min="0"
+                max="500"
+                value="100"
+                class="cost_range">
+        <p class="range_number_0">0</p>
+        <p class="range_number_500">500</p>
+            <legend><p class="list_name">Color</p>          
+            </legend>
+                <ul class="Color_list">
+                    <li>
+                        <label for="color black" class="color_label">
+                        <input name="Black"
+                                   type="checkbox"
+                                   value="color_black"
+                                   class="color_checkbox"
+                                    id="color black" checked>
+                            <p class="Color_text">Black</p>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="color blue" class="color_label">
+                                <input name="Blue"
+                                    type="checkbox"
+                                    value="color_blue"
+                                    class="color_checkbox"
+                                    id="color blue">
+                                <p class="Color_text">Blue</p>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="color green" class="color_label">
+                            <input name="Green"
+                                type="checkbox"
+                                value="color_green"
+                                class="color_checkbox"
+                                id="color green">
+                            <p class="Color_text">Green</p>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="color white" class="color_label">
+                            <input name="White" 
+                                type="checkbox"
+                                value="color_white"
+                                class="color_checkbox"
+                                id="color white">
+                            <p class="Color_text">White</p>
+                        </label>
+                    </li>
+                </ul>
+                <legend><p class="list_name">Delivery</p>
+                </legend>
+                <ul class="delivery_list">
+                    <li>
+                        <label for="delivery check_1" class="delivery_label">
+                            <input name="shipping"
+                                type="radio"
+                                value="free_shipping"
+                                class="delivery_radio"
+                                id="delivery check_1">
+                            <p class="delivery_text">Free shipping</p>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="delivery check_2" class="delivery_label">
+                            <input name="shipping"
+                                type="radio"
+                                value="fast_shipping"
+                                class="delivery_radio" checked
+                                id="delivery check_2">
+                            <p class="delivery_text">Fast shipping</p>
+                        </label>
+                    </li>
+                </ul>
+
+        <legend><p class="list_name">Amount</p>
+        </legend>
+            <ul class="amount_list">         
+                <li>
+                    <label for="#">
+                            <input name="Amount"
+                                type="radio"
+                                value="Amount 0-5"
+                                class="amount_radio">
+                            <p class="amount_text">0-5</p>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="#">
+                                <input name="Amount"
+                                    type="radio"
+                                    value="Amount 10-20"
+                                    class="amount_radio">
+                                <p class="amount_text">10-20</p>
+                            </label>
+                        </li>
+                        <li>
+                        <label for="#">
+                                <input name="Amount"
+                                    type="radio"
+                                    value="Amount 20-50"
+                                    class="amount_radio">
+                                <p class="amount_text">20-50</p>
+                            </label>
+                    </li>
+                </ul>
+            <button class="techncal_button">APPLY</button>
+        </form>
+    </section>
 </div>
 
 <ul class="catalog_1">
     <li>
         <img src="/static/shark.jpg" alt="#">
-        <a href="#">SHARKY BEAN BAG CHAIR COVER</a>
-        <a href="#" >$60.00 USD</a>
+        <a href="#" class="catalog_name">SHARKY BEAN BAG CHAIR COVER<br></a>
+        <a href="#" class="catalog_price"><strong>$60.00 USD</strong></a>
     </li>
     <li>
         <img src="/static/kulon.jpg" alt="#">
-        <a href="#">BRASS DECO FRAMES</a>
-        <a href="#">$66.00 USD</a>
+        <a href="#" class="catalog_name">BRASS DECO FRAMES<br></a>
+        <a href="#" class="catalog_price"><strong>$66.00 USD</strong></a>
     </li>
     <li>
         <img src="/static/fartuk.jpg" alt="#">
-        <a href="#">CIBO FULL APRON</a>
-        <a href="#">$60.00 USD</a>
+        <a href="#" class="catalog_name">CIBO FULL APRON<br></a>
+        <a href="#" class="catalog_price"><strong>$60.00 USD</strong></a>
     </li>
 </ul>
 <ul class="catalog_2">
     <li>
         <img src="/static/Toy1.jpg" alt="#">
-        <a href="#">GATCHA GATCHA GUMBALL MACHINE</a>
-        <a href="#">$56.00 USD</a>
+        <a href="#" class="catalog_name">GATCHA GATCHA GUMBALL MACHINE<br></a>
+        <a href="#" class="catalog_price"><strong>$56.00 USD</strong></a>
     </li>
     <li>
         <img src="/static/toy2.jpg" alt="#">
-        <a href="#">CHRISTMAS ADVENT SCENTED CANDLE</a>
-        <a href="#">$29.00 USD</a>
+        <a href="#" class="catalog_name">CHRISTMAS ADVENT SCENTED CANDLE<br></a>
+        <a href="#" class="catalog_price"><strong>$29.00 USD</strong></a>
     </li>
     <li>
         <img src="/static/lamp.jpg" alt="#">
-        <a href="#">TANGLE SPINNING TEA LIGHT</a>
-        <a href="#">$56.00 USD</a>
+        <a href="#" class="catalog_name">TANGLE SPINNING TEA LIGHT<br></a>
+        <a href="#" class="catalog_price"><strong>$56.00 USD</strong></a>
     </li>
 </ul>
 
-<img src="/static/vector_left.svg" alt="" class="blog_button_vector_1">
+<img src="/static/vector_left.svg" alt="" class="toys_button_vector_1">
 <div class="blog_footer">
-<a href="#" class="blog_button_alt">1</a>
-<a href="#" class="blog_button">2</a>
-<a href="#" class="blog_button">3</a>
-<a href="#" class="blog_button">4</a>
+<a href="#" class="toys_button_alt">1</a>
+<a href="#" class="toys_button">2</a>
+<a href="#" class="toys_button">3</a>
+<a href="#" class="toys_button">4</a>
 </div>
-<img src="/static/vector_right.svg" alt="" class="blog_button_vector_2">
+<img src="/static/vector_right.svg" alt="" class="toys_button_vector_2">
 </main>
 
 <footer>
