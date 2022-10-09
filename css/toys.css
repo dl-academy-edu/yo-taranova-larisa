@@ -1,6 +1,6 @@
 .footer_element_information {
     position: absolute;
-    bottom: -1148px;
+    bottom: -1132px;
     left: 700px;
 }
 
@@ -20,12 +20,18 @@
     left: 1500px;
 }
 
+.toys_button:hover {
+    opacity: 0.6;
+}
+
 .toys_button {
+    margin-top: 78px;
     font-family: 'Montserrat', sans-serif;
     color: black;
 }
 
 .toys_button_alt {
+    margin-top: 78px;
     color: #C29974;
     font-family: 'Montserrat', sans-serif;
 }
@@ -77,6 +83,7 @@
     background: black;
     color: white;
     margin-top: 24px;
+    border: #000;
 }
 
 .blog_footer {
@@ -126,6 +133,10 @@
     position: relative;
 }
 
+.color_label:hover {
+    text-decoration: underline;
+}
+
 .color_label::before {
     content: '';
     position: absolute;
@@ -148,6 +159,10 @@
     border-radius: 20%;
     left: -38px;
     opacity: 0;
+}
+
+.delivery_label:hover {
+    text-decoration: underline;
 }
 
 .delivery_label::before {
@@ -220,4 +235,9 @@
 
 .delivery_radio:checked + .delivery_text::before {
     opacity: 1;
+}
+
+.amount_list {
+    display: flex;
+    justify-content: space-between
 }

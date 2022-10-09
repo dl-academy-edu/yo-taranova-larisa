@@ -9,6 +9,22 @@ body {
     text-decoration: none;
 }
 
+input:hover {
+    border: #C29974;
+}
+
+button:hover,
+button:focus {
+    background: #C29974;
+    border: #C29974;
+}
+
+button:active {
+    background: #CFAF91;
+    border: #CFAF91;
+}
+
+
 .DLK {
     position: absolute;
     top: 45px;
@@ -23,6 +39,14 @@ body {
     display: flex;
     padding-top: 20px;
  }
+
+.technical_references:hover {
+    opacity: 0.6;
+}
+
+.technical_references:active {
+    opacity: 0.4;
+}
 
 .technical_references {
     margin: 10px;
@@ -53,7 +77,6 @@ a {
 }
 
 
-
 .footer_elements {
     display: flex;
 }
@@ -62,6 +85,10 @@ footer {
     background:#434343;
     color: #AAAAAA;
     font-family: 'Open Sans', sans-serif;
+}
+
+.footer_list {
+    padding-inline-start: 0px;
 }
 
 .footer_email {
@@ -84,10 +111,28 @@ footer {
     padding-bottom: 15px;
 }
 
+.footer_color:hover {
+    opacity: 0.6;
+}
+
 .forums_footer {
     display: flex;
     line-height: 22px;
     padding-inline-start: 0px;
+}
+
+.Facebook:hover,
+.Twitter:hover,
+.Pinterest:hover,
+.Instagram:hover {
+    opacity: 0.6;
+}
+
+.Facebook:active,
+.Twitter:active,
+.Pinterest:active,
+.Instagram:active {
+    opacity: 0.4;
 }
 
 .forums_footer .element {
@@ -99,13 +144,13 @@ footer {
 }
 
 .footer_bottom::after {
-        content: '';
-        display: block;
-        position: absolute;
-        width: 1180px;
-        height: 1px;
-        background: #666666;
-        z-index: 2;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1180px;
+    height: 1px;
+    background: #666666;
+    z-index: 2;
 }
 
 .footer_bottom {

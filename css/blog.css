@@ -1,12 +1,12 @@
 .footer_element_information {
     position: absolute;
-    bottom: -975px;
+    bottom: -950px;
     left: 700px;
 }
 
 .footer_element_connect {
     position: absolute;
-    bottom: -850px;
+    bottom: -840px;
     left: 1220px;
 }
 
@@ -55,6 +55,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.head:active,
+.head:hover {
+    text-decoration:underline
+}
+
 .text {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
@@ -92,4 +97,3 @@
     top: 1387px;
     left: 1500px;
 }
-

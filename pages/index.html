@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/index.css">
+    <script></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap" rel="stylesheet">
@@ -52,7 +53,7 @@
                     <img src="/static/Banner-button.png" alt="" class="banner_png">
                     <h1 class="banner monster"><strong>THE OOH NOO <br> COLLECTION</strong></h1>
                     <p class="banner crimson">Designed in Slovenia</p>
-                    <button class="banner button"><strong>EXPLORE NOW</strong></button>
+                    <button class="banner_button"><strong>EXPLORE NOW</strong></button>
             <img class="banner_img" src="/static/monster.png" alt="">
             <p class="banner banner_footer">FREE (CONTINENTAL) USA SHIPPING ON ALL ORDERS OF $100 USD OR MORE!</p>
         </section>
@@ -140,7 +141,7 @@
         <section class="footer_main">
             <div class="navigation">
                 <h3>Navigation</h3>
-                <ul class="footer_color footer_list">
+                <ul class="footer_list">
                     <li class="footer_color">
                         <a href="#">About Us</a>
                     </li>
@@ -163,7 +164,7 @@
             </div>
             <div class="footer_element_information">
                 <h3>Customer Information</h3>
-                <ul class="footer_color footer_list">
+                <ul class="footer_list">
                     <li class="footer_color">
                         <a href="#">Contact Us</a>
                     </li>
@@ -192,23 +193,23 @@
             </form>
                 <ul class="forums_footer">
                     <li>
-                        <a href="#" class="forums_footer element"><img src="/static/Facebook.png" alt=""></a>
+                        <a href="#" class="forums_footer element Facebook"><img src="/static/Facebook.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#" class="forums_footer element"><img src="/static/Twitter.png" alt=""></a>
+                        <a href="#" class="forums_footer element Twitter"><img src="/static/Twitter.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#" class="forums_footer element"><img src="/static/Pinterest.png" alt=""></a>
+                        <a href="#" class="forums_footer element Pinterest"><img src="/static/Pinterest.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#" class="forums_footer element"><img src="/static/Instagram.png" alt=""></a>
+                        <a href="#" class="forums_footer element Instagram"><img src="/static/Instagram.png" alt=""></a>
                     </li>
                 </ul>
             </div>
             <section>
             <img src="#" alt="">
                 </div>
-                <div class="footer_color footer_bottom">
+                <div class="footer_bottom">
                 <p>Company Rating</p>
                 <img src="/static/star.png" alt="" class="footer_img">
                 <div>
@@ -221,8 +222,9 @@
             </section>        
         </footer>
 
-        <form action="#">
+        <form action="#" class="modal_window">
             <section class="contact_name">
+                <button class="modal_button"><img src="/static/cross.png" alt="cross"></button>
                 <div class="imput_text_list">
                     <p class="name_text">Name</p>
                         <input type="text" class="name_input">
@@ -234,12 +236,13 @@
                         <input type="text" class="message_input">
                 </div>
                     <label for="checkbox_message_id" class="checkbox_label">
-                        <input type="checkbox" id="checkbox_message_id" class="checkbox_message" checked>
+                        <input type="checkbox" id="checkbox_message_id" class="checkbox_message">
                     <p class="checkbox_text">By clicking on the button, you consent to the processing of your personal data</p>
                     </label>
                 <button class="contact_button"><strong>SUBMIT</strong></button>
             </section>
             </form>
 
+            <script src="/javascript/index.js"></script>
 </body>
 </html>

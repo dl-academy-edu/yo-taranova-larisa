@@ -1,12 +1,12 @@
 .footer_element_information {
     position: absolute;
-    bottom: -733px;
+    bottom: -710px;
     left: 700px;
 }
 
 .footer_element_connect {
     position: absolute;
-    bottom: -605px;
+    bottom: -595px;
     left: 1220px;
 }
 
@@ -76,7 +76,20 @@
     left: 700px;
 }
 
-
+.apparel_kids:hover,
+.apparel_kids:active,
+.holiday:hover,
+.holiday:active,
+.toys:hover,
+.toys:active,
+.accessories:hover,
+.accessories:active,
+.apparel_adults:hover,
+.apparel_adults:active,
+.sale:hover,
+.sale:active {
+    text-decoration:underline
+}
 
 .accessories {
     position: absolute;

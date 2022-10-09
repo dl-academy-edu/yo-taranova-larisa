@@ -1,6 +1,6 @@
 .footer_element_information {
     position: absolute;
-    bottom: -1925px;
+    bottom: -1905px;
     left: 700px;
 }
 
@@ -10,8 +10,162 @@ footer {
 
 .footer_element_connect {
     position: absolute;
-    bottom: -1800px;
+    bottom: -1790px;
     left: 1220px;
+}
+
+.modal_window {
+    display: none;
+}
+
+.modal_window_open {
+    display: block;
+}
+
+.contact_button {
+    cursor: pointer;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 22px;
+    padding-left: 22px;
+    font-family: 'Montserrat', sans-serif;
+    background: #C1C1C1;
+    color: white;
+    margin-bottom: 51px;
+    border: white;
+}
+
+.message_input {
+    border: white;
+    padding-top: 14px;
+    padding-bottom: 136px;
+    border-radius: 0%;
+    width: 600px;
+}
+
+.checkbox_message {
+    display: none;
+}
+
+.checkbox_label::before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 19px;
+    width: 19px;
+    border: 2px solid #C29974;
+    background: transparent;
+    border-radius: 20%;
+    bottom: 105px;
+}
+
+.modal_button {
+    cursor: pointer;
+    position: absolute;
+    right: -31px;
+    background: transparent;
+    border: transparent;
+}
+
+.modal_button:hover {
+    opacity: 0.6;
+    background: transparent;
+}
+
+.modal_button:active {
+    opacity: 0.2;
+    background: transparent;
+}
+
+.checkbox_text::after {
+    position: absolute;
+    content: url('/static/button6.png');
+    display: block;
+    height: 19px;
+    width: 19px;
+    opacity: 0;
+    bottom: 105px;
+    left: 44px;
+}
+
+.imput_text_list {
+    border: #000;
+    width: 600px;
+}
+
+.contact_name {
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    top: 200px;
+    left: 620px;
+    padding-left: 40px;
+    padding-right: 40px;
+    z-index: 1;
+    background: #E5EAF8;
+}
+
+.modal_window::before {
+    content: '';
+    position: fixed;
+    display: block;
+    background-color: #7D97DACC;
+    height: 1000px;
+    width: 1400px;
+    z-index: 1;
+    left: 228px;
+    top: 0;
+}
+
+.checkbox_text {
+    padding-top: 22px;
+}
+
+.checkbox_text {
+    cursor: pointer;
+    margin-left: 32px;
+}
+
+.checkbox_message:checked + .checkbox_text::after {
+    opacity: 1;
+}
+
+.imput_text_list {
+    border: #000;
+    width: 600px;
+}
+
+.input_line_email{
+    border: white;
+    top: 145px;
+    left: 350px;
+    position: absolute;
+    width: 290px;
+    padding-top: 14px;
+    padding-bottom: 11px;
+    border-radius: 0%;
+}
+
+.input_line {
+    border: white;
+    position: relative;
+    width: 290px;
+    padding-top: 14px;
+    padding-bottom: 11px;
+    border-radius: 0%;
+}
+
+.email_text {
+    position: absolute;
+    left: 350px;
+    top: 95px;
+}
+
+.name_input {
+    border: white;
+    padding-top: 14px;
+    padding-bottom: 11px;
+    border-radius: 0%;
+    width: 600px;
 }
 
 .banner {
@@ -50,7 +204,8 @@ footer {
     padding-bottom: 20px;
 }
 
-.banner .button {
+.banner_button {
+    cursor: pointer;
     font-family: 'Open Sans', sans-serif;
     margin-left: 133px;
     font-size: 16px;
@@ -94,6 +249,17 @@ footer {
     margin-top: 101px;
     font-size: 38px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.apparel:hover,
+.apparel:active,
+.holiday:hover,
+.holiday:active,
+.toys:hover,
+.toys:active,
+.accessories:hover,
+.accessories:active {
+    text-decoration:underline
 }
 
 .apparel {
@@ -186,6 +352,11 @@ footer {
     color: white;
 }
 
+.women_button:hover {
+    background: #C29974;
+    border: #C29974;;
+}
+
 .women_text_alt {
     margin-bottom: 35px;
     font-family: 'Open Sans', sans-serif;
@@ -248,6 +419,11 @@ footer {
     color: white; 
 }
 
+.kids_button:hover {
+    background: #C29974;
+    border: #C29974;;
+}
+
 .kids_text {
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 29px;
@@ -266,7 +442,7 @@ footer {
 }
 
 .contacts {
-    z-index: 2;
+    z-index: -1;
     padding-left: 640px;
     position: absolute;
     bottom: -1236px;
@@ -299,78 +475,4 @@ footer {
     margin-bottom: 0px;
     width: 560px;
     padding-left: 20px;
-}
-
-
-.contact_button {
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-right: 22px;
-    padding-left: 22px;
-    font-family: 'Montserrat', sans-serif;
-    background: black;
-    color: white;
-    margin-bottom: 111px;
-}
-
-.message_input {
-    padding-top: 14px;
-    padding-bottom: 136px;
-    border-radius: 0%;
-    width: 600px;
-}
-
-.checkbox_message {
-    display: none;
-}
-
-.checkbox_label::before {
-        content: '';
-        position: absolute;
-        display: block;
-        height: 19px;
-        width: 19px;
-        border: 2px solid #C29974;
-        background: transparent;
-        border-radius: 20%;
-        top: 767px;
-        left: 333px;
-    }
-
-    .checkbox_text::after {
-        position: absolute;
-        content: url('/static/button6.png');
-        display: block;
-        height: 19px;
-        width: 19px;
-        top: 770px;
-        left: 337px;
-        opacity: 0;
-}
-
-.imput_text_list {
-    border: #000;
-    width: 600px;
-}
-
-.contact_name {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.checkbox_text {
-    padding-top: 22px;
-}
-
-.checkbox_text {
-    cursor: pointer;
-    margin-left: 32px;
-}
-
-.checkbox_message:checked + .checkbox_text::after {
-    opacity: 1;
-}
-
-.imput_text_list {
-    border: #000;
-    width: 600px;
 }
