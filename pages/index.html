@@ -20,6 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <script src="/javascript/index.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=h, initial-scale=1.0">
@@ -136,61 +137,71 @@
             </div>
         </section>
         </main>
+
+        <footer>
+            <section class="footer_main">
+            <div class="footer_element">
+                <div class="navigation">
+                    <h3 class="heading_footer_alt">Navigation</h3>
+                    <ul class="footer_list">
+                        <li class="footer_color">
+                            <a href="#">About Us</a>
+                        </li>
+                        <li class="footer_color">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="footer_color">
+                            <a href="#">Design Services</a>
+                        </li>
+                        <li class="footer_color">
+                            <a href="#">Featured On</a>
+                        </li>
+                        <li class="footer_color">
+                            <a href="#">2018 Holiday Catalog</a>
+                        </li>
+                        <li class="footer_color">
+                            <a href="#">Shop By Designer</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         
-    <footer>
-        <section class="footer_main">
-            <div class="navigation">
-                <h3>Navigation</h3>
-                <ul class="footer_list">
-                    <li class="footer_color">
-                        <a href="#">About Us</a>
-                    </li>
-                    <li class="footer_color">
-                        <a href="#">Blog</a>
-                    </li>
-                    <li class="footer_color">
-                        <a href="#">Design Services</a>
-                    </li>
-                    <li class="footer_color">
-                        <a href="#">Featured On</a>
-                    </li>
-                    <li class="footer_color">
-                        <a href="#">2018 Holiday Catalog</a>
-                    </li>
-                    <li class="footer_color">
-                        <a href="#">Shop By Designer</a>
-                    </li>
-                </ul>
+            <div class="footer_element">
+                <div class="footer_element_information">
+                    <h3 class="heading_footer">Customer Information</h3>
+                    <ul class="footer_list">
+                        <li class="footer_color">
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li class="footer_color">
+                            <a href="#">Sale Exclusions</a>
+                        </li>
+                        <li class="footer_color">
+                            <a href="#">Shipping & Returns</a>
+                        </li>
+                        <li class="footer_color">
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                        <li class="footer_color">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li class="footer_color">
+                            <a href="#">Search</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer_element_information">
-                <h3>Customer Information</h3>
-                <ul class="footer_list">
-                    <li class="footer_color">
-                        <a href="#">Contact Us</a>
-                    </li>
-                    <li class="footer_color">
-                        <a href="#">Sale Exclusions</a>
-                    </li>
-                    <li class="footer_color">
-                        <a href="#">Shipping & Returns</a>
-                    </li>
-                    <li class="footer_color">
-                        <a href="#">Terms & Conditions</a>
-                    </li>
-                    <li class="footer_color">
-                        <a href="#">Privacy Policy</a>
-                    </li>
-                    <li class="footer_color">
-                        <a href="#">Search</a>
-                    </li>
-                </ul>
-            </div>
+        
             <div class="footer_element_connect">
-                <form action="submit">
-                <h3>Connect</h3>
-                <input type="Email" class="footer_email">
+                <label for="email">
+                <form action="#">
+                <h3 class="heading_footer">Connect</h3>
+                <input type="Email" class="footer_email" id="email">
                 <button class="email_button">JOIN</button>
-            </form>
+            </label>
+            </div>
+    
+            <div class="footer_element_connect">
                 <ul class="forums_footer">
                     <li>
                         <a href="#" class="forums_footer element Facebook"><img src="/static/Facebook.png" alt=""></a>
@@ -206,43 +217,21 @@
                     </li>
                 </ul>
             </div>
+    
             <section>
-            <img src="#" alt="">
-                </div>
+                    <img src="#" alt="">
                 <div class="footer_bottom">
-                <p>Company Rating</p>
-                <img src="/static/star.png" alt="" class="footer_img">
-                <div>
-                    <p class="footer_color">Copyright © 2018 Dlk • Design Life Kids</p>
-                </div>
+                    
+                        <p class="footer_text">Company Rating</p>
 
-                <div>
-                    <p>Web Design — Direct Line Development</p>
-                </section>   
-            </section>        
-        </footer>
+                        <img src="/static/star.png" alt="Company Rating" class="footer_img">
+                        
+                        <p class="copyright footer_text">Copyright © 2018 Dlk • Design Life Kids</p>
 
-        <form action="#" class="modal_window">
-            <section class="contact_name">
-                <button class="modal_button"><img src="/static/cross.png" alt="cross"></button>
-                <div class="imput_text_list">
-                    <p class="name_text">Name</p>
-                        <input type="text" class="name_input">
-                    <p class="phone_text list">Phone</p>
-                        <input type="Phone" class="input_line">
-                    <p class="email_text" >Email</p>
-                        <input type="Email" class="input_line_email">
-                    <p class="message_text">Message</p>
-                        <input type="text" class="message_input">
-                </div>
-                    <label for="checkbox_message_id" class="checkbox_label">
-                        <input type="checkbox" id="checkbox_message_id" class="checkbox_message">
-                    <p class="checkbox_text">By clicking on the button, you consent to the processing of your personal data</p>
-                    </label>
-                <button class="contact_button"><strong>SUBMIT</strong></button>
-            </section>
+                        <p>Web Design — Direct Line Development</p>
             </form>
-
-            <script src="/javascript/index.js"></script>
-</body>
-</html>
+            </section>            
+            </footer>
+        
+        </body>
+        </html>

@@ -46,7 +46,7 @@
 <a href="#" class="toys_list">Toys</a>
 <div class="technical">
     <section class="technical">
-        <form action="#" class="settings">
+        <form action="/pages/toys.html" class="settings">
         <p>Cost</p>
         <input  type="range"
                 min="0"
@@ -124,6 +124,7 @@
                     </li>
                 </ul>
 
+    <section class="amount">
         <legend><p class="list_name">Amount</p>
         </legend>
             <ul class="amount_list">         
@@ -133,8 +134,8 @@
                                 type="radio"
                                 value="Amount 0-5"
                                 class="amount_radio"
-                                id="0-5">
-                            <p class="amount_text">0-5</p>
+                                id="0-5" checked>
+                            <p class="amount_text amount_text_alt">0-5</p>
                         </label>
                     </li>
                     <li>
@@ -158,44 +159,57 @@
                             </label>
                     </li>
                 </ul>
+    </section>
             <button class="techncal_button">APPLY</button>
         </form>
     </section>
 </div>
 
 <ul class="catalog_1">
-    <li>
-        <img src="/static/shark.jpg" alt="#">
+    <label for="sharky">
+    <li class="catalog_list">
+        <img src="/static/shark.jpg" alt="#" class="catalog_img">
         <a href="#" class="catalog_name">SHARKY BEAN BAG CHAIR COVER<br></a>
-        <a href="#" class="catalog_price"><strong>$60.00 USD</strong></a>
+        <a href="#" class="catalog_price" id="sharky"><strong>$60.00 USD</strong></a>
     </li>
-    <li>
-        <img src="/static/kulon.jpg" alt="#">
+    </label>
+    <label for="brass">
+    <li class="catalog_list">
+        <img src="/static/kulon.jpg" alt="#" class="catalog_img">
         <a href="#" class="catalog_name">BRASS DECO FRAMES<br></a>
-        <a href="#" class="catalog_price"><strong>$66.00 USD</strong></a>
+        <a href="#" class="catalog_price" id="brass"><strong>$66.00 USD</strong></a>
     </li>
-    <li>
-        <img src="/static/fartuk.jpg" alt="#">
+    </label>
+    <label for="cibo">
+    <li class="catalog_list">
+        <img src="/static/fartuk.jpg" alt="#" class="catalog_img">
         <a href="#" class="catalog_name">CIBO FULL APRON<br></a>
-        <a href="#" class="catalog_price"><strong>$60.00 USD</strong></a>
+        <a href="#" class="catalog_price" id="cibo"><strong>$60.00 USD</strong></a>
     </li>
+    </label>
 </ul>
 <ul class="catalog_2">
-    <li>
-        <img src="/static/Toy1.jpg" alt="#">
+    <label for="gatcha">
+    <li class="catalog_list">
+        <img src="/static/Toy1.jpg" alt="#" class="catalog_img">
         <a href="#" class="catalog_name">GATCHA GATCHA GUMBALL MACHINE<br></a>
-        <a href="#" class="catalog_price"><strong>$56.00 USD</strong></a>
+        <a href="#" class="catalog_price" id="gatcha"><strong>$56.00 USD</strong></a>
     </li>
-    <li>
-        <img src="/static/toy2.jpg" alt="#">
+    </label>
+    <label for="christmas">
+    <li class="catalog_list">
+        <img src="/static/toy2.jpg" alt="#" class="catalog_img">
         <a href="#" class="catalog_name">CHRISTMAS ADVENT SCENTED CANDLE<br></a>
-        <a href="#" class="catalog_price"><strong>$29.00 USD</strong></a>
+        <a href="#" class="catalog_price" id="christmas"><strong>$29.00 USD</strong></a>
     </li>
-    <li>
-        <img src="/static/lamp.jpg" alt="#">
+    </label>
+    <label for="tangle">
+    <li class="catalog_list">
+        <img src="/static/lamp.jpg" alt="#" class="catalog_img">
         <a href="#" class="catalog_name">TANGLE SPINNING TEA LIGHT<br></a>
-        <a href="#" class="catalog_price"><strong>$56.00 USD</strong></a>
+        <a href="#" class="catalog_price" id="tangle"><strong>$56.00 USD</strong></a>
     </li>
+    </label>
 </ul>
 
 <img src="/static/vector_left.svg" alt="" class="toys_button_vector_1">
@@ -210,8 +224,9 @@
 
 <footer>
     <section class="footer_main">
+    <div class="footer_element">
         <div class="navigation">
-            <h3>Navigation</h3>
+            <h3 class="heading_footer_alt">Navigation</h3>
             <ul class="footer_list">
                 <li class="footer_color">
                     <a href="#">About Us</a>
@@ -233,8 +248,11 @@
                 </li>
             </ul>
         </div>
+    </div>
+
+    <div class="footer_element">
         <div class="footer_element_information">
-            <h3>Customer Information</h3>
+            <h3 class="heading_footer">Customer Information</h3>
             <ul class="footer_list">
                 <li class="footer_color">
                     <a href="#">Contact Us</a>
@@ -256,12 +274,18 @@
                 </li>
             </ul>
         </div>
+    </div>
+
         <div class="footer_element_connect">
-            <form action="submit">
-            <h3>Connect</h3>
-            <input type="Email" class="footer_email">
+            <label for="email">
+            <form action="#">
+            <h3 class="heading_footer">Connect</h3>
+            <input type="Email" class="footer_email" id="email">
             <button class="email_button">JOIN</button>
-        </form>
+        </label>
+        </div>
+
+        <div class="footer_element_connect">
             <ul class="forums_footer">
                 <li>
                     <a href="#" class="forums_footer element Facebook"><img src="/static/Facebook.png" alt=""></a>
@@ -277,21 +301,20 @@
                 </li>
             </ul>
         </div>
+
         <section>
         <img src="#" alt="">
             </div>
             <div class="footer_bottom">
-            <p>Company Rating</p>
-            <img src="/static/star.png" alt="" class="footer_img">
-            <div>
-                <p class="footer_color">Copyright © 2018 Dlk • Design Life Kids</p>
-            </div>
-
-            <div>
+            <p class="footer_text">Company Rating</p>
+            <img src="/static/star.png" alt="Company Rating" class="footer_img">
+                <p class="copyright footer_text">Copyright © 2018 Dlk • Design Life Kids</p>
                 <p>Web Design — Direct Line Development</p>
+        </form>
             </section>   
         </section>   
-            
-            
         </section>        
     </footer>
+
+</body>
+</html>
