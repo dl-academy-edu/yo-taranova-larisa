@@ -10,6 +10,14 @@
     left: 985px;
 }
 
+.blog_button:hover {
+    opacity: 0.6;
+}
+
+.blog_button:active {
+    opacity: 0.4;
+}
+
 .blog_1 {
     margin-top: 50px;
     display: flex;

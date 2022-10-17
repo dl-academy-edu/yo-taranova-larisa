@@ -24,6 +24,14 @@
     font-size: 38px;
 }
 
+.category_pages {
+    color: black;
+    font-family: 'Bona Nova', serif;
+    font-size: 20px;
+}
+
+
+
 .catalog_1 {
     text-align: center;
     position: relative;
@@ -48,11 +56,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.category_pages {
-    color: black;
-    font-family: 'Bona Nova', serif;
-    font-size: 20px;
-}
+
 
 .category_products_head {
     font-family: 'Montserrat', sans-serif;
