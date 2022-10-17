@@ -61,17 +61,6 @@ a {
 
 
 
-.footer_element_information {
-    position: absolute;
-    top: 115px;
-    left: 520px;
-}
-
-.catalog_list {
-    cursor: pointer;
-    width: 380px;
-}
-
 .footer_main {
     position: relative;
 }

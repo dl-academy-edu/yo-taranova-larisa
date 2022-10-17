@@ -4,15 +4,17 @@
     left: 520px;
 }
 
-.catalog_list {
-    cursor: pointer;
-    width: 380px;
-}
-
 .footer_element_connect {
     position: absolute;
     top: 115px;
     left: 985px;
+}
+
+
+
+.catalog_list {
+    cursor: pointer;
+    width: 380px;
 }
 
 .toys_button_vector_1 {

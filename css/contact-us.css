@@ -1,13 +1,13 @@
 .footer_element_information {
     position: absolute;
-    bottom: -395px;
-    left: 700px;
+    top: 115px;
+    left: 520px;
 }
 
 .footer_element_connect {
     position: absolute;
-    bottom: -280px;
-    left: 1220px;
+    top: 115px;
+    left: 985px;
 }
 
 .contact_name, .pages_list, .text_list {

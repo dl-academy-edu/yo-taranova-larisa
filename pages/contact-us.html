@@ -74,8 +74,9 @@
 
     <footer>
         <section class="footer_main">
+        <div class="footer_element">
             <div class="navigation">
-                <h3>Navigation</h3>
+                <h3 class="heading_footer_alt">Navigation</h3>
                 <ul class="footer_list">
                     <li class="footer_color">
                         <a href="#">About Us</a>
@@ -97,8 +98,11 @@
                     </li>
                 </ul>
             </div>
+        </div>
+    
+        <div class="footer_element">
             <div class="footer_element_information">
-                <h3>Customer Information</h3>
+                <h3 class="heading_footer">Customer Information</h3>
                 <ul class="footer_list">
                     <li class="footer_color">
                         <a href="#">Contact Us</a>
@@ -120,12 +124,18 @@
                     </li>
                 </ul>
             </div>
+        </div>
+    
             <div class="footer_element_connect">
-                <form action="submit">
-                <h3>Connect</h3>
-                <input type="Email" class="footer_email">
+                <label for="email">
+                <form action="#">
+                <h3 class="heading_footer">Connect</h3>
+                <input type="Email" class="footer_email" id="email">
                 <button class="email_button">JOIN</button>
-            </form>
+            </label>
+            </div>
+    
+            <div class="footer_element_connect">
                 <ul class="forums_footer">
                     <li>
                         <a href="#" class="forums_footer element Facebook"><img src="/static/Facebook.png" alt=""></a>
@@ -141,19 +151,20 @@
                     </li>
                 </ul>
             </div>
+    
             <section>
             <img src="#" alt="">
                 </div>
                 <div class="footer_bottom">
-                <p>Company Rating</p>
-                <img src="/static/star.png" alt="" class="footer_img">
-                <div>
-                    <p class="footer_color">Copyright © 2018 Dlk • Design Life Kids</p>
-                </div>
-
-                <div>
+                <p class="footer_text">Company Rating</p>
+                <img src="/static/star.png" alt="Company Rating" class="footer_img">
+                    <p class="copyright footer_text">Copyright © 2018 Dlk • Design Life Kids</p>
                     <p>Web Design — Direct Line Development</p>
+            </form>
                 </section>   
             </section>   
-</body>
-</html>
+            </section>        
+        </footer>
+    
+    </body>
+    </html>
