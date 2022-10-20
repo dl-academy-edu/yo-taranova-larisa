@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/toys.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/toys.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=h, initial-scale=1.0">
@@ -17,21 +17,21 @@
 </head>
 <body>
     <header class="container">
-        <a href="/pages/index.html"></a><img src="/static/DLK.svg" alt="DLK" class="DLK"></a>
+        <a href="/pages/index.html"><img src="/static/DLK.svg" alt="DLK" class="DLK"></a>
         <nav>
             <ul class="technical_references">
                 <li>
-                    <a href="blog.html" class="technical_references element blog">BLOG</a>
+                    <a href="blog.html" class="technical_references blog technical_element">BLOG</a>
                 </li>
                 <li>
-                    <a href="catalog.html" class="technical_references element">CATALOG</a>
+                    <a href="catalog.html" class="technical_references technical_element">CATALOG</a>
                 </li>
                 <li>
-                    <a href="#" class="technical_references element">ABOUT US</a>
+                    <a href="#" class="technical_references technical_element">ABOUT US</a>
                 </li>
                 <li>
                     <img src="/static/loupe.jpg" alt="#" class="loupe">
-                    <a href="/pages/contact-us.html" class="technical_references contact"><strong>CONTACT US</strong></a>
+                    <a href="/pages/contact-us.html" class="technical_references contact technical_element"><strong>CONTACT US</strong></a>
                 </li>
     </ul>  
     </nav>
@@ -45,8 +45,7 @@
 <img src="/static//button3.svg" alt="#">
 <a href="#" class="toys_list">Toys</a>
 <div class="technical">
-    <section class="technical">
-        <form action="/pages/toys.html" class="settings">
+<form action="/pages/toys.html" class="settings">
         <p>Cost</p>
         <input  type="range"
                 min="0"
@@ -55,78 +54,69 @@
                 class="cost_range">
         <p class="range_number_0">0</p>
         <p class="range_number_500">500</p>
-            <legend><p class="list_name">Color</p>          
-            </legend>
+            <p class="list_name">Color</p>
                 <ul class="Color_list">
                     <li>
-                        <label for="color black" class="color_label">
-                        <input name="Black"
-                                   type="checkbox"
-                                   value="color_black"
-                                   class="color_checkbox"
-                                    id="color black" checked>
-                            <p class="Color_text">Black</p>
-                        </label>
+                            <label for="color_black" class="color_label">
+                            <input name="Black"
+                                    type="checkbox"
+                                    value="color_black"
+                                    class="color_checkbox"
+                                    id="color_black" checked>
+                            <p class="Color_text">Black</p></label>
                     </li>
                     <li>
-                        <label for="color blue" class="color_label">
+                        <label for="color_blue" class="color_label">
                                 <input name="Blue"
                                     type="checkbox"
                                     value="color_blue"
                                     class="color_checkbox"
-                                    id="color blue">
-                                <p class="Color_text">Blue</p>
-                        </label>
+                                    id="color_blue">
+                            <p class="Color_text">Blue</p></label>
                     </li>
                     <li>
-                        <label for="color green" class="color_label">
+                        <label for="color_green" class="color_label">
                             <input name="Green"
                                 type="checkbox"
                                 value="color_green"
                                 class="color_checkbox"
-                                id="color green">
-                            <p class="Color_text">Green</p>
-                        </label>
+                                id="color_green">
+                            <p class="Color_text">Green</p></label>
                     </li>
                     <li>
-                        <label for="color white" class="color_label">
+                        <label for="color_white" class="color_label">
                             <input name="White" 
                                 type="checkbox"
                                 value="color_white"
                                 class="color_checkbox"
-                                id="color white">
-                            <p class="Color_text">White</p>
-                        </label>
+                                id="color_white">
+                            <p class="Color_text">White</p></label>
                     </li>
                 </ul>
-                <legend><p class="list_name">Delivery</p>
-                </legend>
+                <p class="list_name">Delivery</p>
                 <ul class="delivery_list">
                     <li>
-                        <label for="delivery check_1" class="delivery_label">
+                        <label for="delivery_check_1" class="delivery_label">
                             <input name="shipping"
                                 type="radio"
                                 value="free_shipping"
                                 class="delivery_radio"
-                                id="delivery check_1">
-                            <p class="delivery_text">Free shipping</p>
-                        </label>
+                                id="delivery_check_1">
+                            <p class="delivery_text">Free shipping</p></label>
                     </li>
                     <li>
-                        <label for="delivery check_2" class="delivery_label">
+                        <label for="delivery_check_2" class="delivery_label">
                             <input name="shipping"
                                 type="radio"
                                 value="fast_shipping"
                                 class="delivery_radio" checked
-                                id="delivery check_2">
-                            <p class="delivery_text">Fast shipping</p>
-                        </label>
+                                id="delivery_check_2">
+                            <p class="delivery_text">Fast shipping</p></label>
                     </li>
                 </ul>
 
-    <section class="amount">
-        <legend><p class="list_name">Amount</p>
-        </legend>
+    <div class="amount">
+        <p class="list_name">Amount</p>
             <ul class="amount_list">         
                 <li>
                     <label for="0-5">
@@ -135,8 +125,7 @@
                                 value="Amount 0-5"
                                 class="amount_radio"
                                 id="0-5" checked>
-                            <p class="amount_text amount_text_alt">0-5</p>
-                        </label>
+                            <p class="amount_text amount_text_alt">0-5</p></label>
                     </li>
                     <li>
                         <label for="10-20">
@@ -145,8 +134,7 @@
                                     value="Amount 10-20"
                                     class="amount_radio"
                                     id="10-20">
-                                <p class="amount_text">10-20</p>
-                            </label>
+                                <p class="amount_text">10-20</p></label>
                         </li>
                         <li>
                         <label for="20-50">
@@ -155,14 +143,12 @@
                                     value="Amount 20-50"
                                     class="amount_radio"
                                     id="20-50">
-                                <p class="amount_text">20-50</p>
-                            </label>
+                                <p class="amount_text">20-50</p></label>
                     </li>
                 </ul>
-    </section>
-            <button class="techncal_button">APPLY</button>
-        </form>
-    </section>
+            </div>
+    <button class="techncal_button">APPLY</button>
+</form>
 </div>
 
 <ul class="catalog_1">
@@ -187,8 +173,6 @@
         <a href="#" class="catalog_price" id="cibo"><strong>$60.00 USD</strong></a>
     </li>
     </label>
-</ul>
-<ul class="catalog_2">
     <label for="gatcha">
     <li class="catalog_list">
         <img src="/static/Toy1.jpg" alt="#" class="catalog_img">
@@ -274,47 +258,38 @@
                 </li>
             </ul>
         </div>
+        </div>
+
+    <div class="footer_element_connect footer_element">
+        <h3 class="heading_footer element">Connect</h3>
+        <input type="Email" class="footer_email" id="email">
+        <button class="email_button">JOIN</button>
     </div>
 
-        <div class="footer_element_connect">
-            <label for="email">
-            <form action="#">
-            <h3 class="heading_footer">Connect</h3>
-            <input type="Email" class="footer_email" id="email">
-            <button class="email_button">JOIN</button>
-        </label>
-        </div>
-
-        <div class="footer_element_connect">
-            <ul class="forums_footer">
-                <li>
-                    <a href="#" class="forums_footer element Facebook"><img src="/static/Facebook.png" alt=""></a>
-                </li>
-                <li>
-                    <a href="#" class="forums_footer element Twitter"><img src="/static/Twitter.png" alt=""></a>
-                </li>
-                <li>
-                    <a href="#" class="forums_footer element Pinterest"><img src="/static/Pinterest.png" alt=""></a>
-                </li>
-                <li>
-                    <a href="#" class="forums_footer element Instagram"><img src="/static/Instagram.png" alt=""></a>
-                </li>
-            </ul>
-        </div>
-
-        <section>
-        <img src="#" alt="">
-            </div>
-            <div class="footer_bottom">
-            <p class="footer_text">Company Rating</p>
-            <img src="/static/star.png" alt="Company Rating" class="footer_img">
-                <p class="copyright footer_text">Copyright © 2018 Dlk • Design Life Kids</p>
-                <p>Web Design — Direct Line Development</p>
-        </form>
-            </section>   
-        </section>   
-        </section>        
-    </footer>
+    <div class="footer_element_connect">
+        <ul class="forums_footer">
+            <li>
+                <a href="#" class="forums_footer element Facebook"><img src="/static/Facebook.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#" class="forums_footer element Twitter"><img src="/static/Twitter.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#" class="forums_footer element Pinterest"><img src="/static/Pinterest.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#" class="forums_footer element Instagram"><img src="/static/Instagram.png" alt=""></a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer_bottom">
+        <p class="footer_text">Company Rating</p>
+        <img src="/static/star.png" alt="Company Rating" class="footer_img">
+            <p class="copyright footer_text">Copyright © 2018 Dlk • Design Life Kids</p>
+            <p>Web Design — Direct Line Development</p>
+    </div>   
+    </section>     
+</footer>
 
 </body>
 </html>

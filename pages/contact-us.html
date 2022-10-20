@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/css/contact-us.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/contact-us.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap" rel="stylesheet">
@@ -20,21 +21,21 @@
 
 <body>
     <header class="container">
-        <a href="/pages/index.html"></a><img src="/static/DLK.svg" alt="DLK" class="DLK"></a>
+        <a href="/pages/index.html"><img src="/static/DLK.svg" alt="DLK" class="DLK"></a>
         <nav>
             <ul class="technical_references">
                 <li>
-                    <a href="blog.html" class="technical_references element blog">BLOG</a>
+                    <a href="blog.html" class="technical_references blog technical_element">BLOG</a>
                 </li>
                 <li>
-                    <a href="catalog.html" class="technical_references element">CATALOG</a>
+                    <a href="catalog.html" class="technical_references technical_element">CATALOG</a>
                 </li>
                 <li>
-                    <a href="#" class="technical_references element">ABOUT US</a>
+                    <a href="#" class="technical_references technical_element">ABOUT US</a>
                 </li>
                 <li>
                     <img src="/static/loupe.jpg" alt="#" class="loupe">
-                    <a href="/pages/contact-us.html" class="technical_references contact"><strong>CONTACT US</strong></a>
+                    <a href="/pages/contact-us.html" class="technical_references contact technical_element"><strong>CONTACT US</strong></a>
                 </li>
     </ul>  
     </nav>
@@ -47,12 +48,12 @@
     </div>
 
     <form action="#">
-    <section class="contact_name">
+    <div class="contact_name">
         <div class="imput_text_list">
             <p class="name_text">Name</p>
                 <input type="text" class="name_input">
             <p class="phone_text list">Phone</p>
-                <input type="Phone" class="input_line">
+                <input type="text" class="input_line">
             <p class="email_text" >Email</p>
                 <input type="Email" class="input_line_email">
             <p class="message_text">Message</p>
@@ -63,7 +64,7 @@
             <p class="checkbox_text">By clicking on the button, you consent to the processing of your personal data</p>
             </label>
         <button class="contact_button"><strong>SUBMIT</strong></button>
-    </section>
+    </div>
     </form>
 
     <div class="text_list">
@@ -124,47 +125,38 @@
                     </li>
                 </ul>
             </div>
+            </div>
+    
+        <div class="footer_element_connect footer_element">
+            <h3 class="heading_footer element">Connect</h3>
+            <input type="Email" class="footer_email" id="email">
+            <button class="email_button">JOIN</button>
         </div>
     
-            <div class="footer_element_connect">
-                <label for="email">
-                <form action="#">
-                <h3 class="heading_footer">Connect</h3>
-                <input type="Email" class="footer_email" id="email">
-                <button class="email_button">JOIN</button>
-            </label>
-            </div>
-    
-            <div class="footer_element_connect">
-                <ul class="forums_footer">
-                    <li>
-                        <a href="#" class="forums_footer element Facebook"><img src="/static/Facebook.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="#" class="forums_footer element Twitter"><img src="/static/Twitter.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="#" class="forums_footer element Pinterest"><img src="/static/Pinterest.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="#" class="forums_footer element Instagram"><img src="/static/Instagram.png" alt=""></a>
-                    </li>
-                </ul>
-            </div>
-    
-            <section>
-            <img src="#" alt="">
-                </div>
-                <div class="footer_bottom">
-                <p class="footer_text">Company Rating</p>
-                <img src="/static/star.png" alt="Company Rating" class="footer_img">
-                    <p class="copyright footer_text">Copyright © 2018 Dlk • Design Life Kids</p>
-                    <p>Web Design — Direct Line Development</p>
-            </form>
-                </section>   
-            </section>   
-            </section>        
-        </footer>
+        <div class="footer_element_connect">
+            <ul class="forums_footer">
+                <li>
+                    <a href="#" class="forums_footer element Facebook"><img src="/static/Facebook.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#" class="forums_footer element Twitter"><img src="/static/Twitter.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#" class="forums_footer element Pinterest"><img src="/static/Pinterest.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#" class="forums_footer element Instagram"><img src="/static/Instagram.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_bottom">
+            <p class="footer_text">Company Rating</p>
+            <img src="/static/star.png" alt="Company Rating" class="footer_img">
+                <p class="copyright footer_text">Copyright © 2018 Dlk • Design Life Kids</p>
+                <p>Web Design — Direct Line Development</p>
+        </div>   
+        </section>     
+    </footer>
     
     </body>
     </html>

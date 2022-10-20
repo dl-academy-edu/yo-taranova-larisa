@@ -7,29 +7,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/catalog.css">
+    <link rel="stylesheet" href="/css/catalog.min.css">
     <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=h, initial-scale=1.0">
     <title>Catalog</title>
     <header class="container">
-        <a href="/pages/index.html"></a><img src="/static/DLK.svg" alt="DLK" class="DLK"></a>
+        <a href="/pages/index.html"><img src="/static/DLK.svg" alt="DLK" class="DLK"></a>
         <nav>
             <ul class="technical_references">
                 <li>
-                    <a href="blog.html" class="technical_references element blog">BLOG</a>
+                    <a href="blog.html" class="technical_references blog technical_element">BLOG</a>
                 </li>
                 <li>
-                    <a href="catalog.html" class="technical_references element">CATALOG</a>
+                    <a href="catalog.html" class="technical_references technical_element">CATALOG</a>
                 </li>
                 <li>
-                    <a href="#" class="technical_references element">ABOUT US</a>
+                    <a href="#" class="technical_references technical_element">ABOUT US</a>
                 </li>
                 <li>
                     <img src="/static/loupe.jpg" alt="#" class="loupe">
-                    <a href="/pages/contact-us.html" class="technical_references contact"><strong>CONTACT US</strong></a>
+                    <a href="/pages/contact-us.html" class="technical_references contact technical_element"><strong>CONTACT US</strong></a>
                 </li>
     </ul>  
     </nav>
@@ -128,17 +128,14 @@
                     </li>
                 </ul>
             </div>
-        </div>
+            </div>
     
-        <div class="footer_element_connect">
-            <label for="email">
-            <form action="#">
-            <h3 class="heading_footer">Connect</h3>
+        <div class="footer_element_connect footer_element">
+            <h3 class="heading_footer element">Connect</h3>
             <input type="Email" class="footer_email" id="email">
             <button class="email_button">JOIN</button>
-        </label>
         </div>
-
+    
         <div class="footer_element_connect">
             <ul class="forums_footer">
                 <li>
@@ -155,21 +152,14 @@
                 </li>
             </ul>
         </div>
-
-        <section>
-                <img src="#" alt="">
-            <div class="footer_bottom">
-                
-                    <p class="footer_text">Company Rating</p>
-
-                    <img src="/static/star.png" alt="Company Rating" class="footer_img">
-                    
-                    <p class="copyright footer_text">Copyright © 2018 Dlk • Design Life Kids</p>
-
-                    <p>Web Design — Direct Line Development</p>
-        </form>
-        </section>            
-        </footer>
+        <div class="footer_bottom">
+            <p class="footer_text">Company Rating</p>
+            <img src="/static/star.png" alt="Company Rating" class="footer_img">
+                <p class="copyright footer_text">Copyright © 2018 Dlk • Design Life Kids</p>
+                <p>Web Design — Direct Line Development</p>
+        </div>   
+        </section>     
+    </footer>
     
     </body>
     </html>

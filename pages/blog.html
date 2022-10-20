@@ -7,8 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/blog.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/blog.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+    <link rel="stylesheet" href="/css/normalize.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=h, initial-scale=1.0">
@@ -16,21 +17,21 @@
 </head>
 <body>
     <header class="container">
-        <a href="/pages/index.html"></a><img src="/static/DLK.svg" alt="DLK" class="DLK"></a>
+        <a href="/pages/index.html"><img src="/static/DLK.svg" alt="DLK" class="DLK"></a>
         <nav>
             <ul class="technical_references">
                 <li>
-                    <a href="blog.html" class="technical_references element blog">BLOG</a>
+                    <a href="blog.html" class="technical_references blog technical_element">BLOG</a>
                 </li>
                 <li>
-                    <a href="catalog.html" class="technical_references element">CATALOG</a>
+                    <a href="catalog.html" class="technical_references technical_element">CATALOG</a>
                 </li>
                 <li>
-                    <a href="#" class="technical_references element">ABOUT US</a>
+                    <a href="#" class="technical_references technical_element">ABOUT US</a>
                 </li>
                 <li>
                     <img src="/static/loupe.jpg" alt="#" class="loupe">
-                    <a href="/pages/contact-us.html" class="technical_references contact"><strong>CONTACT US</strong></a>
+                    <a href="/pages/contact-us.html" class="technical_references contact technical_element"><strong>CONTACT US</strong></a>
                 </li>
     </ul>  
     </nav>
@@ -56,13 +57,11 @@
             <p class="company_logo text">Direct Line Development is honored to be recognized as one of the Top 100 Fastest Growing Companies 2019 in Philadelphia, according to Growjo’s ranking.</p>
         </li>
         <li class="company_logo">
-            <img src="/static/set of toys.png" alt="">
+            <img src="/static/set_of_toys.png" alt="">
             <p class="company_logo date">23rd August 2018</p>
             <h3 class="company_logo head">Company logo or brand identity: which one is more important? brand identity</h3>
             <p class="company_logo text">To survive in the world of digital marketing, you need to keep up with the latest SEO trends. Here are our simple, but effective, SEO tips for small business success.</p>
         </li>
-    </ul>
-    <ul class="blog_2">
         <li class="best_financial">
             <img src="/static/toy3.png" alt="">
             <p class="company_logo date">23rd August 2018</p>
@@ -76,7 +75,7 @@
             <p class="company_logo text">To survive in the world of digital marketing, you need to keep up with the latest SEO trends. Here are our simple, but effective, SEO tips for small business success.</p>
         </li>
         <li class="top_5">
-            <img src="/static/playing dice.png" alt="">
+            <img src="/static/playing_dice.png" alt="">
             <p class="company_logo date">23rd August 2018</p>
             <h3 class="company_logo head">Top 5 fastest growing it service companies in philly</h3>
             <p class="company_logo text">Direct Line Development’s Team is excited to announce that we received UpCity’s 2019 Local Excellence Award! This prestigious award is annually presented to the Top 1% of service providers in the given marketplace.</p>
@@ -145,44 +144,38 @@
                 </li>
             </ul>
         </div>
+        </div>
+
+    <div class="footer_element_connect footer_element">
+        <h3 class="heading_footer element">Connect</h3>
+        <input type="Email" class="footer_email" id="email">
+        <button class="email_button">JOIN</button>
     </div>
 
-        <div class="footer_element_connect">
-            <label for="email">
-            <form action="#">
-            <h3 class="heading_footer">Connect</h3>
-            <input type="Email" class="footer_email" id="email">
-            <button class="email_button">JOIN</button>
-        </label>
-        </div>
+    <div class="footer_element_connect">
+        <ul class="forums_footer">
+            <li>
+                <a href="#" class="forums_footer element Facebook"><img src="/static/Facebook.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#" class="forums_footer element Twitter"><img src="/static/Twitter.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#" class="forums_footer element Pinterest"><img src="/static/Pinterest.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#" class="forums_footer element Instagram"><img src="/static/Instagram.png" alt=""></a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer_bottom">
+        <p class="footer_text">Company Rating</p>
+        <img src="/static/star.png" alt="Company Rating" class="footer_img">
+            <p class="copyright footer_text">Copyright © 2018 Dlk • Design Life Kids</p>
+            <p>Web Design — Direct Line Development</p>
+    </div>   
+    </section>     
+</footer>
 
-        <div class="footer_element_connect">
-            <ul class="forums_footer">
-                <li>
-                    <a href="#" class="forums_footer element Facebook"><img src="/static/Facebook.png" alt=""></a>
-                </li>
-                <li>
-                    <a href="#" class="forums_footer element Twitter"><img src="/static/Twitter.png" alt=""></a>
-                </li>
-                <li>
-                    <a href="#" class="forums_footer element Pinterest"><img src="/static/Pinterest.png" alt=""></a>
-                </li>
-                <li>
-                    <a href="#" class="forums_footer element Instagram"><img src="/static/Instagram.png" alt=""></a>
-                </li>
-            </ul>
-        </div>
-
-        <section>
-        <img src="#" alt="">
-            </div>
-            <div class="footer_bottom">
-            <p class="footer_text">Company Rating</p>
-            <img src="/static/star.png" alt="Company Rating" class="footer_img">
-                <p class="copyright footer_text">Copyright © 2018 Dlk • Design Life Kids</p>
-                <p>Web Design — Direct Line Development</p>
-        </form>
-            </section>   
-        </section>   
-        </section>        
-    </footer>
+</body>
+</html>
