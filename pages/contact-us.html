@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/contact-us.min.css">
-    <link rel="stylesheet" href="/css/style.min.css">
+    <link rel="stylesheet" href="/css/contact-us.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap" rel="stylesheet">
@@ -20,135 +21,137 @@
 </head>
 
 <body>
-    <header class="container">
+    <header>
         <a href="/pages/index.html"><img src="/static/DLK.svg" alt="DLK" class="DLK"></a>
-        <nav>
-            <ul class="technical_references">
-                <li>
+        <ul class="technical_references">
+            <li>
                     <a href="blog.html" class="technical_references blog technical_element">BLOG</a>
-                </li>
-                <li>
+            </li>
+            <li>
                     <a href="catalog.html" class="technical_references technical_element">CATALOG</a>
-                </li>
-                <li>
+            </li>
+            <li>
                     <a href="#" class="technical_references technical_element">ABOUT US</a>
-                </li>
-                <li>
+            </li>
+            <li>
                     <img src="/static/loupe.jpg" alt="#" class="loupe">
                     <a href="/pages/contact-us.html" class="technical_references contact technical_element"><strong>CONTACT US</strong></a>
-                </li>
-    </ul>  
-    </nav>
+            </li>
+    </ul>
     </header>
-    <div class="pages_list">
-    <h1 class="page_name">CONTACT US</h1>
-        <a href="/pages/index.html" class="pages">Home</a>
-        <img src="/static/button3.svg" alt="#">
-        <a href="/pages/contact-us.html" class="pages">Contact-us</a>
-    </div>
-
-    <form action="#">
-    <div class="contact_name">
-        <div class="imput_text_list">
-            <p class="name_text">Name</p>
-                <input type="text" class="name_input">
-            <p class="phone_text list">Phone</p>
-                <input type="text" class="input_line">
-            <p class="email_text" >Email</p>
-                <input type="Email" class="input_line_email">
-            <p class="message_text">Message</p>
-                <input type="text" class="message_input">
+<main class="container">
+        <div class="pages_list">
+        <h1 class="page_name">CONTACT US</h1>
+            <a href="/pages/index.html" class="pages">Home</a>
+            <img src="/static/button3.svg" alt="#">
+            <a href="/pages/contact-us.html" class="pages">Contact-us</a>
         </div>
-            <label for="checkbox_message_id" class="checkbox_label">
-                <input type="checkbox" id="checkbox_message_id" class="checkbox_message" checked>
-            <p class="checkbox_text">By clicking on the button, you consent to the processing of your personal data</p>
-            </label>
-        <button class="contact_button"><strong>SUBMIT</strong></button>
-    </div>
-    </form>
 
-    <div class="text_list">
-        <p>Our support team are on-hand to assist with any issues you are experiencing.</p>
-        <p>Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
-        <h2 class="text_name">AN EXPERT IS WAITING TO HELP YOU!</h2>
-    </div>
+        <form action="#">
+        <div class="contact_name">
+            <div class="imput_text_list">
+                <p class="name_text">Name</p>
+                    <input type="text" class="name_input">
+                <p class="phone_text list">Phone</p>
+                    <input type="text" class="input_line">
+                <p class="email_text" >Email</p>
+                    <input type="Email" class="input_line_email">
+                <p class="message_text">Message</p>
+                    <input type="text" class="message_input">
+            </div>
+                <label for="checkbox_message_id" class="checkbox_label">
+                    <input type="checkbox" id="checkbox_message_id" class="checkbox_message" checked>
+                <p class="checkbox_text">By clicking on the button, you consent to the processing of your personal data</p>
+                </label>
+            <button class="contact_button"><strong>SUBMIT</strong></button>
+        </div>
+        </form>
 
-    <footer>
+        <div class="text_list">
+            <p>Our support team are on-hand to assist with any issues you are experiencing.</p>
+            <p>Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
+            <h2 class="text_name">AN EXPERT IS WAITING TO HELP YOU!</h2>
+        </div>
+</main>
+
+
+    <footer class="container_footer">
         <section class="footer_main">
-        <div class="footer_element">
-            <div class="navigation">
-                <h3 class="heading_footer_alt">Navigation</h3>
+        <div class="footer_flex">
                 <ul class="footer_list">
-                    <li class="footer_color">
-                        <a href="#">About Us</a>
+                        <li>
+                            <h3 class="footer_element_heading">Navigation</h3>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link_element">About Us</a>
+                        </li>
+                        <li>
+                            <a href="/pages/blog.html" class="footer_link_element">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link_element">Design Services</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link_element">Featured On</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link_element">2018 Holiday Catalog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link_element">Shop By Designer</a>
+                        </li>
+                    </ul>
+                    <ul class="footer_list">
+                        <li>
+                            <h3 class="footer_element_heading">Customer Information</h3>
+                        </li>
+                        <li>
+                            <a href="/pages/contact-us.html" class="footer_link_element">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link_element">Sale Exclusions</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link_element">Shipping & Returns</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link_element">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link_element">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link_element">Search</a>
+                        </li>
+                    </ul>
+        <ul>
+            <li>
+                <h3 class="footer_element_heading">Connect</h3>
+            </li>
+            <li>
+                <input type="Email" class="footer_email" id="email">
+            </li>
+            <li>
+                <button class="email_button">JOIN</button>
+            </li>
+        </ul>
+    </div>
+            <div class="footer_element_connect">
+                <ul class="forums_footer">
+                    <li>
+                        <a href="#" class="forums_element"><img src="/static/Facebook.png" alt=""></a>
                     </li>
-                    <li class="footer_color">
-                        <a href="#">Blog</a>
+                    <li>
+                        <a href="#" class="forums_element"><img src="/static/Twitter.png" alt=""></a>
                     </li>
-                    <li class="footer_color">
-                        <a href="#">Design Services</a>
+                    <li>
+                        <a href="#" class="forums_element"><img src="/static/Pinterest.png" alt=""></a>
                     </li>
-                    <li class="footer_color">
-                        <a href="#">Featured On</a>
-                    </li>
-                    <li class="footer_color">
-                        <a href="#">2018 Holiday Catalog</a>
-                    </li>
-                    <li class="footer_color">
-                        <a href="#">Shop By Designer</a>
+                    <li>
+                        <a href="#" class="forums_element"><img src="/static/Instagram.png" alt=""></a>
                     </li>
                 </ul>
             </div>
-        </div>
-    
-        <div class="footer_element">
-            <div class="footer_element_information">
-                <h3 class="heading_footer">Customer Information</h3>
-                <ul class="footer_list">
-                    <li class="footer_color">
-                        <a href="#">Contact Us</a>
-                    </li>
-                    <li class="footer_color">
-                        <a href="#">Sale Exclusions</a>
-                    </li>
-                    <li class="footer_color">
-                        <a href="#">Shipping & Returns</a>
-                    </li>
-                    <li class="footer_color">
-                        <a href="#">Terms & Conditions</a>
-                    </li>
-                    <li class="footer_color">
-                        <a href="#">Privacy Policy</a>
-                    </li>
-                    <li class="footer_color">
-                        <a href="#">Search</a>
-                    </li>
-                </ul>
-            </div>
-            </div>
-    
-        <div class="footer_element_connect footer_element">
-            <h3 class="heading_footer element">Connect</h3>
-            <input type="Email" class="footer_email" id="email">
-            <button class="email_button">JOIN</button>
-        </div>
-    
-        <div class="footer_element_connect">
-            <ul class="forums_footer">
-                <li>
-                    <a href="#" class="forums_footer element Facebook"><img src="/static/Facebook.png" alt=""></a>
-                </li>
-                <li>
-                    <a href="#" class="forums_footer element Twitter"><img src="/static/Twitter.png" alt=""></a>
-                </li>
-                <li>
-                    <a href="#" class="forums_footer element Pinterest"><img src="/static/Pinterest.png" alt=""></a>
-                </li>
-                <li>
-                    <a href="#" class="forums_footer element Instagram"><img src="/static/Instagram.png" alt=""></a>
-                </li>
-            </ul>
-        </div>
         <div class="footer_bottom">
             <p class="footer_text">Company Rating</p>
             <img src="/static/star.png" alt="Company Rating" class="footer_img">

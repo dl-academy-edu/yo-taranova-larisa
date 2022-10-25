@@ -63,11 +63,14 @@
 .blog_button {
     font-family: 'Montserrat', sans-serif;
     color: black;
+    margin-top: 51px;
 }
 
 .blog_button_alt {
     color: #C29974;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 63px;
+    margin-top: 51px;
 }
 
 .blog_footer {
@@ -84,6 +87,6 @@
 
 .blog_button_vector_2 {
     position: absolute;
-    top: 1325px;
+    top: 1240px;
     left: 1500px;
 }

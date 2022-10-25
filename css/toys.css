@@ -5,12 +5,12 @@
 
 .toys_button_vector_1 {
     position: absolute;
-    top: 1630px;
+    top: 1540px;
 }
 
 .toys_button_vector_2 {
     position: absolute;
-    top: 1630px;
+    top: 1540px;
     left: 1500px;
 }
 
@@ -22,6 +22,7 @@
     margin-top: 78px;
     font-family: 'Montserrat', sans-serif;
     color: black;
+    margin-bottom: 63px;
 }
 
 .toys_button_alt {
@@ -53,9 +54,9 @@
     content: '';
     display: block;
     position: absolute;
-    top: 350px;
-    left: 250px;
-    width:1400px;
+    top: 300px;
+    left: 0px;
+    width: 1850px;
     min-height: 254px;
     background: #E1F0F7;
     z-index: -1;
@@ -137,6 +138,7 @@
     background: transparent;
     border-radius: 20%;
     left: 0px;
+    left: -40px;
 }
 
 .Color_text::before {
@@ -162,7 +164,7 @@
     height: 20px;
     width: 20px;
     border: 2px solid #C29974;
-    left: 0px;
+    left: -40px;
     border-radius: 50%;
 }
 
@@ -184,7 +186,7 @@
 .list_name {
     font-family: 'Open Sans', sans-serif;
     position: relative;
-    position: relative;
+    right: 25px;
 }
 
 .settings {
@@ -199,7 +201,7 @@
 .cost_range {
     position: relative;
     top: 45px;
-    right: 55px;
+    right: 70px;
     height: 24px;
     width: 188px;
 }
@@ -207,13 +209,13 @@
 .range_number_0 {
     position: relative;
     top: 70px;
-    right: 270px;
+    right: 300px;
 }
 
 .range_number_500 {
     position: relative;
     top: 70px;
-    left: -142px;
+    right: 185px;
 }
 
 .color_checkbox:checked + .Color_text::before {
@@ -230,8 +232,8 @@
 }
 
 .amount_list {
-    right: 40px;
-    bottom: 30px;
+    right: 25px;
+    bottom: 15px;
     position: relative;
     display: flex;
     justify-content: space-between;

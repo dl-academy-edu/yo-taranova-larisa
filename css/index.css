@@ -164,7 +164,7 @@ footer {
 .banner .crimson {
     font-size: 20px;
     padding-left: 133px;
-    font-family: 'Bona Nova', serif;
+    font-family: 'Crimson Text', serif;
 }
 
 .banner_01 {
@@ -374,7 +374,7 @@ footer {
     content: '';
     display: block;
     position: absolute;
-    top: 2055px;
+    top: 1965px;
     left: 340px;
     width:543px;
     height: 228px;
@@ -418,7 +418,7 @@ footer {
 }
 
 .kids_italic {
-    font-family: 'Bona Nova', serif;
+    font-family: 'Crimson Text', serif;
     font-size: 26px;
 }
 
@@ -430,10 +430,10 @@ footer {
 }
 
 .contacts {
-    z-index: -1;
+    z-index: 0;
     padding-left: 640px;
     position: absolute;
-    bottom: -1236px;
+    bottom: -1147px;
 }
 
 .contacts::after {

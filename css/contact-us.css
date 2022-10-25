@@ -1,6 +1,4 @@
-.contact_name, .pages_list, .text_list {
-    margin-left: 105px;
-}
+
 
 .pages {
     font-family: 'Bona Nova', serif;
@@ -26,7 +24,7 @@
 
 .text_list {
     top: 292px;
-    left: 989px;
+    right: 400px;
     position: absolute;
     font-family: 'Open Sans', sans-serif;
     width: 380px;
@@ -112,27 +110,27 @@
 }
 
 .checkbox_label::before {
-        content: '';
-        position: absolute;
-        display: block;
-        height: 19px;
-        width: 19px;
-        border: 2px solid #C29974;
-        background: transparent;
-        border-radius: 20%;
-        top: 755px;
-        left: 333px;
-    }
+    content: '';
+    position: absolute;
+    display: block;
+    height: 19px;
+    width: 19px;
+    border: 2px solid #C29974;
+    background-color: transparent;
+    border-radius: 20%;
+    top: 755px;
+    left: 333px;
+}
 
-    .checkbox_text::after {
-        position: absolute;
-        content: url('/static/button6.png');
-        display: block;
-        height: 19px;
-        width: 19px;
-        top: 759px;
-        left: 337px;
-        opacity: 0;
+.checkbox_text::after {
+    position: absolute;
+    content: url('/static/button6.png');
+    display: block;
+    height: 19px;
+    width: 19px;
+    top: 759px;
+    left: 337px;
+    opacity: 0;
 }
 
 .checkbox_text {
