@@ -54,13 +54,12 @@
     content: '';
     display: block;
     position: absolute;
-    top: 300px;
+    top: 360px;
     left: 0px;
     width: 1850px;
     min-height: 254px;
     background: #E1F0F7;
     z-index: -1;
-    opacity: 20% ;
 }
 
 .techncal_button {
@@ -266,4 +265,3 @@
 .catalog_list {
     position: relative;
 }
-
