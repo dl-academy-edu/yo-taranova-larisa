@@ -4,6 +4,10 @@
     padding-inline-start: 0px;
 }
 
+.container-header {
+    margin: 0 auto;
+}
+
 .container {
     max-width: 1180px;
     margin: 0 auto;
@@ -11,10 +15,6 @@
 
 a {
     color: white;
-}
-
-header {
-    margin-left: 265px;
 }
 
 
@@ -33,7 +33,8 @@ header {
 }
 
 .blog { 
-    padding-left: 269px;
+    padding-left: 535px;
+    margin-bottom: 100px;
 }
 
 .loupe {
@@ -47,6 +48,14 @@ header {
     font-family: 'Open Sans', sans-serif;
 }
 
+input[type=tel]:hover,
+input[type=email]:hover,
+input[type=text]:hover,
+input[type=tel]:active,
+input[type=email]:active,
+input[type=text]:active {
+    border-color: #C29974;
+}
 
 button:hover,
 button:focus {

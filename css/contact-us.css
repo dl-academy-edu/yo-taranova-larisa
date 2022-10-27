@@ -1,5 +1,3 @@
-
-
 .pages {
     font-family: 'Bona Nova', serif;
     color: black;
@@ -7,15 +5,8 @@
     margin-bottom: 92px;
 }
 
-
-
 .contact_name {
     font-family: 'Open Sans', sans-serif;
-}
-
-.pages_list {
-    margin-top: 76px;
-    margin-bottom: 92px;
 }
 
 .page_name {
@@ -23,11 +14,11 @@
 }
 
 .text_list {
-    top: 292px;
-    right: 400px;
-    position: absolute;
     font-family: 'Open Sans', sans-serif;
     width: 380px;
+    margin-left: 160px;
+    position: relative;
+    bottom: 50px;
 }
 
 .text_name {
@@ -36,23 +27,35 @@
     font-size: 26px;
 }
 
-.contact_name::before {
-    content: '';
-    position: absolute;
-    display: block;
-    background-color: #E5EAF8;
-    height: 542px;
-    width: 680px;
-    left: 295px;
-    top: 310px;
-    z-index: -1;
+.name_text,
+.phone_text,
+.email_text,
+.message_text {
+    margin-bottom: 3px;
+}
+
+.contact_flex {
+    display: flex;
+    margin-top: 92px;
+    margin-left: 40px;
+}
+
+.phone_add_email {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone_add_email_text {
+    max-width: 356px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .name_input,
 .input_line_email,
 .input_line,
 .message_input {
-    border: #000;
+    border-color: #000;
 }
 
 .name_input {
@@ -62,16 +65,9 @@
     width: 600px;
 }
 
-.email_text {
-    position: absolute;
-    left: 643px;
-    top: 414px;
-}
-
 .input_line_email{
     top: 464px;
     left: 643px;
-    position: absolute;
     width: 290px;
     padding-top: 14px;
     padding-bottom: 11px;
@@ -79,7 +75,6 @@
 }
 
 .input_line {
-    position: relative;
     width: 290px;
     padding-top: 14px;
     padding-bottom: 11px;
@@ -118,8 +113,8 @@
     border: 2px solid #C29974;
     background-color: transparent;
     border-radius: 20%;
-    top: 755px;
-    left: 333px;
+    top: 786px;
+    left: 377px;
 }
 
 .checkbox_text::after {
@@ -128,9 +123,21 @@
     display: block;
     height: 19px;
     width: 19px;
-    top: 759px;
-    left: 337px;
+    top: 790px;
+    left: 380px;
     opacity: 0;
+}
+
+.contact_flex::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 680px;
+    height: 542px;
+    left: 340px;
+    top: 340px;    
+    background: #E5EAF8;
+    z-index: -1;
 }
 
 .checkbox_text {

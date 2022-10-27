@@ -1,5 +1,5 @@
 footer {
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .modal_window {
@@ -168,17 +168,22 @@ footer {
 }
 
 .banner_01 {
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.05;
     position: absolute;
     z-index: 1;
-    top: 25px;
-    left: 35px;
+    top: 160px;
+    left: 360px;
+    width: 61px;
+    height: 74px;
+    font-size: 60px;
 }
 
 .banner_png {
     position: absolute;
     z-index: 1;
-    left: 35px;
-    top: 100px;
+    left: 365px;
+    top: 300px;
 }
 
 .banner .monster {
@@ -252,26 +257,34 @@ footer {
 
 .apparel {
     position: absolute;
-    top: 65px;
+    top: 100px;
     left: 75px;
+    max-width: 129px;
+    overflow: hidden;
 }
 
 .holiday {
     position: absolute;
-    top: 65px;
+    top: 100px;
     left: 380px;
+    max-width: 123px;
+    overflow: hidden;
 }
 
 .toys {
     position: absolute;
-    top: 85px;
+    top: 115px;
     right: 400px;
+    max-width: 71px;
+    overflow: hidden;
 }
 
 .accessories {
     position: absolute;
-    top: 85px;
+    top: 115px;
     right: 50px;
+    max-width: 191px;
+    overflow: hidden;
 }
 
 
@@ -340,6 +353,10 @@ footer {
     color: white;
 }
 
+.main_bottom {
+    max-width: 1113px;
+}
+
 .women_button:hover {
     background: #C29974;
     border: #C29974;;
@@ -370,21 +387,10 @@ footer {
 
 
 
-.kids::after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 1965px;
-    left: 340px;
-    width:543px;
-    height: 228px;
-    background: #E1F0F7;
-    z-index: -1;
-}
-
 .kids {
     max-width: 483px;
     margin-left: 40px; 
+    position: relative;
 }
 
 .kids_section {
@@ -394,7 +400,6 @@ footer {
 .kids_head {
     font-family: 'Montserrat', sans-serif;
     font-size: 38px;
-    margin-top: 100px;
 }
 
 .kids_button {
@@ -422,35 +427,45 @@ footer {
     font-size: 26px;
 }
 
+.main_bottom {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
 
+.kids::before {
+    content: '';
+    display: block;
+    position: absolute;
+    min-width: 543px;
+    min-height: 228px;
+    background: #E1F0F7;
+    z-index: -1;
+    top: 60px;
+    right: -22px;
+}
+
+
+
+.contacts::before {
+    content: '';
+    display: block;
+    position: absolute;
+    min-width: 543px;
+    min-height: 209px;
+    background: #E1F0F7;
+    z-index: -1;
+    top: 60px;
+    right: -30px;
+}
+
+.contacts {
+    position: relative;
+}
 
 .contacts_text {
     font-family: 'Open Sans', sans-serif;
     width: 483px;
-}
-
-.contacts {
-    z-index: 0;
-    padding-left: 640px;
-    position: absolute;
-    bottom: -1147px;
-}
-
-.contacts::after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 57px;
-    left: 610px;
-    width: 543px;
-    height: 209px;
-    background: #E1F0F7;
-    z-index: -1;
-}
-
-.contacts_img {
-    position: absolute;
-    top: 200px;
 }
 
 .contacts_head {

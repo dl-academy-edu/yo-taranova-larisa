@@ -8,8 +8,14 @@
     top: 85px;
 }
 
+footer {
+    padding-top: 68px;
+}
+
 .footer_element_heading {
     margin-bottom: 52px;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .footer_main::after {
@@ -42,6 +48,17 @@
     padding-right: 340px;
 }
 
+.rating {
+    margin-right: 255px;
+    color: white;
+}
+
+.rating_alt {
+    margin-right: 245px;
+    color: white;
+}
+
+
 .footer_email {
     position: relative;
     width: 300px;
@@ -52,21 +69,26 @@
 }
 
 .email_button {
-    position: relative;
     background: black;
     color: white;
     min-height: 42px;
     min-width: 81px;
-    left: 222px;
-    bottom: 42px;
-    z-index: 1;
+}
+
+.email_list {
+    display: flex;
+
 }
 
 .forums_element {
     padding-left: 10px;
+}
+
+.forums_list {
+    display: flex;
     position: relative;
-    bottom: 160px;
-    left: 865px;
+    top: 25px;
+    right: 10px;
 }
 
 .forums_element:hover {
@@ -84,8 +106,8 @@
 .footer_bottom {
     position: relative;
     display: flex;
-    justify-content: space-between;
     padding-bottom: 100px;
+    padding-top: 25px;
 }
 
 .footer_img {
@@ -95,8 +117,13 @@
 }
 
 .copyright {
-    position: relative;
-    left: 45px;
+    color: white;
+    margin-right: 140px;
+}
+
+.copyright_alt {
+    color: white;
+    margin-right: 135px;
 }
 
 .footer_text {
@@ -108,6 +135,12 @@
     justify-content: space-between;
 }
 
-footer {
-    padding-top: 100px;
+
+
+.footer_link_element:hover {
+    opacity: 0.6;
+}
+
+.footer_link_element:active {
+    opacity: 0.4;
 }
