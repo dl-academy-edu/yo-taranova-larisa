@@ -1,0 +1,481 @@
+footer {
+    margin-top: 50px;
+}
+
+.modal_window {
+    display: none;
+}
+
+.modal_window_open {
+    display: block;
+}
+
+.contact_button {
+    cursor: pointer;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 22px;
+    padding-left: 22px;
+    font-family: 'Montserrat', sans-serif;
+    background: #C1C1C1;
+    color: white;
+    margin-bottom: 51px;
+    border: white;
+}
+
+.message_input {
+    border: white;
+    padding-top: 14px;
+    padding-bottom: 136px;
+    border-radius: 0%;
+    width: 600px;
+}
+
+.checkbox_message {
+    display: none;
+}
+
+.checkbox_label::before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 19px;
+    width: 19px;
+    border: 2px solid #C29974;
+    background: transparent;
+    border-radius: 20%;
+    bottom: 105px;
+}
+
+.modal_button {
+    cursor: pointer;
+    position: absolute;
+    right: -31px;
+    background: transparent;
+    border: transparent;
+}
+
+.modal_button:hover {
+    opacity: 0.6;
+    background: transparent;
+}
+
+.modal_button:active {
+    opacity: 0.2;
+    background: transparent;
+}
+
+.checkbox_text::after {
+    position: absolute;
+    content: url('/static/button6.png');
+    display: block;
+    height: 19px;
+    width: 19px;
+    opacity: 0;
+    bottom: 105px;
+    left: 44px;
+}
+
+.imput_text_list {
+    border: #000;
+    width: 600px;
+}
+
+.contact_name {
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    top: 200px;
+    left: 620px;
+    padding-left: 40px;
+    padding-right: 40px;
+    z-index: 1;
+    background: #E5EAF8;
+}
+
+.modal_window::before {
+    content: '';
+    position: fixed;
+    display: block;
+    background-color: #7D97DACC;
+    height: 1000px;
+    width: 1400px;
+    z-index: 1;
+    left: 228px;
+    top: 0;
+}
+
+.checkbox_text {
+    padding-top: 22px;
+}
+
+.checkbox_text {
+    cursor: pointer;
+    margin-left: 32px;
+}
+
+.checkbox_message:checked + .checkbox_text::after {
+    opacity: 1;
+}
+
+.imput_text_list {
+    border: #000;
+    width: 600px;
+}
+
+.input_line_email{
+    border: white;
+    top: 145px;
+    left: 350px;
+    position: absolute;
+    width: 290px;
+    padding-top: 14px;
+    padding-bottom: 11px;
+    border-radius: 0%;
+}
+
+.input_line {
+    border: white;
+    position: relative;
+    width: 290px;
+    padding-top: 14px;
+    padding-bottom: 11px;
+    border-radius: 0%;
+}
+
+.email_text {
+    position: absolute;
+    left: 350px;
+    top: 95px;
+}
+
+.name_input {
+    border: white;
+    padding-top: 14px;
+    padding-bottom: 11px;
+    border-radius: 0%;
+    width: 600px;
+}
+
+.banner {
+    background-color: #EEE4DB;
+    position: relative;
+}
+
+.banner .crimson {
+    font-size: 20px;
+    padding-left: 133px;
+    font-family: 'Crimson Text', serif;
+}
+
+.banner_01 {
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.05;
+    position: absolute;
+    z-index: 1;
+    top: 160px;
+    left: 360px;
+    width: 61px;
+    height: 74px;
+    font-size: 60px;
+}
+
+.banner_png {
+    position: absolute;
+    z-index: 1;
+    left: 365px;
+    top: 300px;
+}
+
+.banner .monster {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner .monster {
+    padding-left: 133px;
+    padding-top: 89px;
+    padding-bottom: 20px;
+}
+
+.banner_button {
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 133px;
+    font-size: 16px;
+    min-width: 161px;
+    background: black;
+    color: white;
+    min-height: 40px;
+    margin-bottom: 60px;
+}
+
+.banner_img {
+    position: absolute;
+    right: 120px;
+    bottom: 30px;
+}
+
+.banner_footer {
+    font-family: 'Open Sans', sans-serif;
+    min-width: 452px;
+    color: white;
+    text-align: center;
+    background: #C29974;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+
+
+.catalog {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    display: flex;
+    color: black;
+    text-align: center;
+    justify-content: space-between;
+    padding-inline-start: 0px;
+    font-size: 26px;
+}
+
+.category_products {
+    margin-top: 101px;
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apparel:hover,
+.apparel:active,
+.holiday:hover,
+.holiday:active,
+.toys:hover,
+.toys:active,
+.accessories:hover,
+.accessories:active {
+    text-decoration:underline
+}
+
+.apparel {
+    position: absolute;
+    top: 100px;
+    left: 75px;
+    max-width: 129px;
+    overflow: hidden;
+}
+
+.holiday {
+    position: absolute;
+    top: 100px;
+    left: 380px;
+    max-width: 123px;
+    overflow: hidden;
+}
+
+.toys {
+    position: absolute;
+    top: 115px;
+    right: 400px;
+    max-width: 71px;
+    overflow: hidden;
+}
+
+.accessories {
+    position: absolute;
+    top: 115px;
+    right: 50px;
+    max-width: 191px;
+    overflow: hidden;
+}
+
+
+
+.arrows {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    display: flex;
+}
+
+.arrows .arrows_element {
+    padding-right: 6px;
+    margin-bottom: 120px;
+}
+
+
+
+.women_color::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -14px;
+    left: -50px ;
+    width: 326px;
+    height: 55px;
+    background: #E1F0F7;
+    z-index: -1;
+}
+
+.women_color {
+    font-family: 'Brygada 1918', serif;
+    font-size: 26px;
+    position: relative;
+}
+
+.women_img {
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    top: -50px;
+    margin-bottom: 90px;
+}
+
+.women_text {
+    font-family: 'Open Sans', sans-serif
+}
+
+.women_heading {
+    margin: 0px;
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.women_italic {
+    font-family: 'Bona Nova', serif;
+    font-size: 26px;
+}
+
+.women_button {
+    font-family: 'Open Sans', sans-serif;
+    padding: 9px;
+    padding-left: 22px;
+    padding-right: 22px;
+    min-width: 161px;
+    background: black;
+    color: white;
+}
+
+.main_bottom {
+    max-width: 1113px;
+}
+
+.women_button:hover {
+    background: #C29974;
+    border: #C29974;;
+}
+
+.women_text_alt {
+    margin-bottom: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.women {
+    position: relative;
+    padding-left: 580px;
+    padding-bottom: 148px;
+    max-width: 480px;
+}
+
+
+
+.forums {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0px;
+    justify-content: space-between;
+}
+
+
+
+.kids {
+    max-width: 483px;
+    margin-left: 40px; 
+    position: relative;
+}
+
+.kids_section {
+    padding-inline-start: 0px;
+}
+
+.kids_head {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+}
+
+.kids_button {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 22px; 
+    padding-right: 22px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background: black;
+    color: white; 
+}
+
+.kids_button:hover {
+    background: #C29974;
+    border: #C29974;;
+}
+
+.kids_text {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 29px;
+}
+
+.kids_italic {
+    font-family: 'Crimson Text', serif;
+    font-size: 26px;
+}
+
+.main_bottom {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.kids::before {
+    content: '';
+    display: block;
+    position: absolute;
+    min-width: 543px;
+    min-height: 228px;
+    background: #E1F0F7;
+    z-index: -1;
+    top: 60px;
+    right: -22px;
+}
+
+
+
+.contacts::before {
+    content: '';
+    display: block;
+    position: absolute;
+    min-width: 543px;
+    min-height: 209px;
+    background: #E1F0F7;
+    z-index: -1;
+    top: 60px;
+    right: -30px;
+}
+
+.contacts {
+    position: relative;
+}
+
+.contacts_text {
+    font-family: 'Open Sans', sans-serif;
+    width: 483px;
+}
+
+.contacts_head {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+}
+
+.modern {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 560px;
+    padding-left: 20px;
+}
