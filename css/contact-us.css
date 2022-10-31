@@ -63,6 +63,13 @@
     padding-bottom: 11px;
     border-radius: 0%;
     width: 600px;
+    color: black;
+}
+
+.blog {
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 20px;
 }
 
 .input_line_email{

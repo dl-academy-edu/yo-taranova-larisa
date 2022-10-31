@@ -4,10 +4,6 @@
     padding-inline-start: 0px;
 }
 
-.container-header {
-    margin: 0 auto;
-}
-
 .container {
     max-width: 1180px;
     margin: 0 auto;
@@ -17,34 +13,26 @@ a {
     color: white;
 }
 
-
-
 .technical_references {
     display: flex;
     padding-top: 20px;
-    margin: 10px;
     color: black;
 }
 
-.DLK {
-    position: absolute;
-    top: 45px;
-    left: 336px;
-}
-
-.blog { 
-    padding-left: 535px;
-    margin-bottom: 100px;
+.catalog_header {
+    margin-right: 20px;
 }
 
 .loupe {
-    position: absolute;
-    top: 60px;
-    right: 450px;
+    max-width: 18px;
+    max-height: 18px;
+    margin-top: 20px;
+    margin-left: 640px;
+    margin-right: 24px;
+    background: white;
 }
 
 .contact {
-    padding-left: 610px;
     font-family: 'Open Sans', sans-serif;
 }
 

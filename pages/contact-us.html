@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/contact-us.min.css">
-    <link rel="stylesheet" href="/css/style.min.css">
-    <link rel="stylesheet" href="/css/footer.min.css">
+    <link rel="stylesheet" href="/css/contact-us.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap" rel="stylesheet">
@@ -21,24 +21,16 @@
 </head>
 
 <body>
-    <header>
-        <a href="/pages/index.html"><img src="/static/DLK.svg" alt="DLK" class="DLK"></a>
+    <header class="container">
         <ul class="technical_references">
-            <li>
-                    <a href="blog.html" class="technical_references blog technical_element">BLOG</a>
-            </li>
-            <li>
-                    <a href="catalog.html" class="technical_references technical_element">CATALOG</a>
-            </li>
-            <li>
-                    <a href="#" class="technical_references technical_element">ABOUT US</a>
-            </li>
-            <li>
+            <a href="/pages/index.html"><img src="/static/DLK.svg" alt="Go to the main page"></a>
+                <li><a href="blog.html" class="technical_references blog technical_element">BLOG</a></li>
+                <li><a href="catalog.html" class="technical_references catalog_header technical_element">CATALOG</a></li>
+                <li><a href="#" class="technical_references about_us technical_element">ABOUT US</a></li>
                     <img src="/static/loupe.jpg" alt="#" class="loupe">
-                    <a href="/pages/contact-us.html" class="technical_references contact technical_element"><strong>CONTACT US</strong></a>
-            </li>
-    </ul>
-    </header>
+                <li><a href="/pages/contact-us.html" class="technical_references contact technical_element">CONTACT US</a></li>
+        </ul>
+        </header>
 <main class="container">
         <div class="pages_list">
         <h1 class="page_name">CONTACT US</h1>
@@ -47,10 +39,10 @@
             <a href="/pages/contact-us.html" class="pages">Contact-us</a>
         </div>
     <div class="contact_flex">
-        <form action="#">
+        <form action="#" class="form">
             <div class="contact_name">
                 <div class="imput_text_list">
-                    <p class="name_text">Name</p>
+                    <p aria-placeholder="Ivan Ivanov" class="name_text">Name</p>
                         <input type="text" class="name_input">
                         <div class="phone_add_email_text">
                             <p class="email_text">Email</p>

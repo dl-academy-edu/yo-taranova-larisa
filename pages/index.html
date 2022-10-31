@@ -11,9 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/style.min.css">
-    <link rel="stylesheet" href="/css/index.min.css">
-    <link rel="stylesheet" href="/css/footer.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@600&display=swap" rel="stylesheet">
@@ -25,28 +25,20 @@
     <title>Main</title>
 </head>
 <body>
-    <header class="container-header">
-        <a href="/pages/index.html"><img src="/static/DLK.svg" alt="DLK" class="DLK"></a>
-        <ul class="technical_references">
-            <li>
-                <a href="blog.html" class="technical_references blog technical_element">BLOG</a>
-            </li>
-            <li>
-                <a href="catalog.html" class="technical_references technical_element">CATALOG</a>
-            </li>
-            <li>
-                <a href="#" class="technical_references technical_element">ABOUT US</a>
-            </li>
+    <header class="container">
+    <ul class="technical_references">
+        <a href="/pages/index.html"><img src="/static/DLK.svg" alt="Go to the main page"></a>
+            <li><a href="blog.html" class="technical_references blog technical_element">BLOG</a></li>
+            <li><a href="catalog.html" class="technical_references catalog_header technical_element">CATALOG</a></li>
+            <li><a href="#" class="technical_references about_us technical_element">ABOUT US</a></li>
                 <img src="/static/loupe.jpg" alt="#" class="loupe">
-            <li>
-                <a href="/pages/contact-us.html" class="technical_references contact technical_element"><strong>CONTACT US</strong></a>
-            </li>
+            <li><a href="/pages/contact-us.html" class="technical_references contact technical_element">CONTACT US</a></li>
     </ul>
     </header>
 
     <main class="container">
-            <p class="banner_01">01</p>
-            <img src="/static/Banner-button.png" alt="" class="banner_png">
+        <span class="banner_01">01</span>
+        
         <section class="banner">
                     <h1 class="banner monster">THE OOH NOO <br> COLLECTION</h1>
                     <p class="banner crimson">Designed in Slovenia</p>
@@ -59,19 +51,19 @@
             <h2 class="category_products">CATEGORY PRODUCTS</h2>
             <ul class="catalog">
                 <li>
-                    <img src="/static/sweater.png" alt="">
+                    <img src="/static/sweater.png" alt="" class="catalog_img">
                     <a href="#" class="products text apparel">APPAREL KIDS</a>
                 </li>
                 <li>
-                    <img src="/static/sock.png" alt="">
+                    <img src="/static/sock.png" alt="" class="catalog_img">
                     <a href="#" class="products text holiday">HOLIDAY SHOP</a>
                 </li>
                 <li>
-                    <img src="/static/deer.png" alt="">
+                    <img src="/static/deer.png" alt="" class="catalog_img">
                     <a href="/pages/toys.html" class="products text toys">TOYS</a>
                 </li>
                 <li>
-                    <img src="/static/monkey.png" alt="">
+                    <img src="/static/monkey.png" alt="" class="catalog_img">
                     <a href="#" class="products text accessories">ACCESSORIES</a>
                 </li>
             </ul>
@@ -187,13 +179,11 @@
                     <li>
                         <ul class="email_list">
                             <li>
-                                <input type="Email" class="footer_email" id="email"></li>
+                                <input type="Email" class="footer_email" id="email" placeholder="Email"></li>
                             <li>
                                 <button class="email_button">JOIN</button>
                             </li>
                         </ul>
-                    </li>
-                    <li>
                     </li>
                     <li>
                         <ul class="forums_list">
