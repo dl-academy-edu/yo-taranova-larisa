@@ -11,9 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/index.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+    <link rel="stylesheet" href="/css/footer.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@600&display=swap" rel="stylesheet">
@@ -35,12 +35,20 @@
             <li><a href="/pages/contact-us.html" class="technical_references contact technical_element">CONTACT US</a></li>
     </ul>
     </header>
-
+  
     <main class="container">
-        <span class="banner_01">01</span>
-        
         <section class="banner">
-                    <h1 class="banner monster">THE OOH NOO <br> COLLECTION</h1>
+            <div class="banner_div">
+                <span class="banner_01">01</span>
+                <ul class="banner_pages">
+                    <li><button class="banner_pages_button-alt"></button></li>
+                    <li><button class="banner_pages_button"></button></li>
+                    <li><button class="banner_pages_button"></button></li>
+                    <li><button class="banner_pages_button"></button></li>
+                </ul>
+            </div>
+
+                 <h1 class="banner monster">THE OOH NOO COLLECTION</h1>
                     <p class="banner crimson">Designed in Slovenia</p>
                     <button class="banner_button">EXPLORE NOW</button>
             <img class="banner_img" src="/static/monster.png" alt="">
@@ -115,7 +123,7 @@
             </div>
             <div class="contacts">
                 <h2 class="contacts_head">CONTACTS</h2>
-                <p class="contacts_text">Some days i feel liked i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+                <p class="contacts_text">Some days i feel liked i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
                 <img class="contacts_img" src="/static/map.png" alt="">
             </div>
         </section>
@@ -205,9 +213,39 @@
             </div>
         
                 <div class="footer_bottom">
-                    <div>
-                        <p class="rating_alt">Company Rating</p>
-                        <img src="/static/star.png" alt="Company Rating" class="footer_img">
+                    <div class="main_rating">
+                        <p class="rating_text">Company Rating</p>
+                            <div class="rating_main">
+                                <input type="radio" 
+                                value="1" 
+                                class="rating_element"
+                                name="star_rating"
+                                aria-label="terribly">
+
+                                <input type="radio" 
+                                value="2" 
+                                class="rating_element"
+                                name="star_rating"
+                                aria-label="badly">
+
+                                <input type="radio" 
+                                value="3" 
+                                class="rating_element"
+                                name="star_rating"
+                                aria-label="fine">
+
+                                <input type="radio" 
+                                value="4" 
+                                class="rating_element"
+                                name="star_rating"
+                                aria-label="well">
+
+                                <input type="radio" 
+                                value="5" 
+                                class="rating_element"
+                                name="star_rating"
+                                aria-label="excellent">
+                            </div>
                     </div>
         
                         <p class="copyright_alt">Copyright © 2018 Dlk • Design Life Kids</p>

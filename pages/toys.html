@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/toys.css">
+    <link rel="stylesheet" href="/css/toys.min.css">
     <link rel="stylesheet" href="/css/style.min.css">
     <link rel="stylesheet" href="/css/footer.min.css">
     <meta charset="UTF-8">
@@ -187,14 +187,14 @@
     </label>
 </ul>
 
-<img src="/static/vector_left.svg" alt="" class="toys_button_vector_1">
 <div class="blog_footer">
-<a href="#" class="toys_button_alt">1</a>
-<a href="#" class="toys_button">2</a>
-<a href="#" class="toys_button">3</a>
-<a href="#" class="toys_button">4</a>
+    <img src="/static/vector_left.svg" alt="" class="toys_button_vector_1">
+    <a href="#" class="toys_button_alt">1</a>
+    <a href="#" class="toys_button">2</a>
+    <a href="#" class="toys_button">3</a>
+    <a href="#" class="toys_button">4</a>
+    <img src="/static/vector_right.svg" alt="" class="toys_button_vector_2">
 </div>
-<img src="/static/vector_right.svg" alt="" class="toys_button_vector_2">
 </main>
 
 <footer class="container_footer">
@@ -255,13 +255,11 @@
                 <li>
                     <ul class="email_list">
                         <li>
-                            <input type="Email" class="footer_email" id="email"></li>
+                            <input type="Email" class="footer_email" id="email" placeholder="Email"></li>
                         <li>
                             <button class="email_button">JOIN</button>
                         </li>
                     </ul>
-                </li>
-                <li>
                 </li>
                 <li>
                     <ul class="forums_list">
@@ -283,12 +281,42 @@
         </div>
     
             <div class="footer_bottom">
-                <div>
-                    <p class="rating">Company Rating</p>
-                    <img src="/static/star.png" alt="Company Rating" class="footer_img">
+                <div class="main_rating">
+                    <p class="rating_text">Company Rating</p>
+                        <div class="rating_main">
+                            <input type="radio" 
+                            value="1" 
+                            class="rating_element"
+                            name="star_rating"
+                            aria-label="terribly">
+
+                            <input type="radio" 
+                            value="2" 
+                            class="rating_element"
+                            name="star_rating"
+                            aria-label="badly">
+
+                            <input type="radio" 
+                            value="3" 
+                            class="rating_element"
+                            name="star_rating"
+                            aria-label="fine">
+
+                            <input type="radio" 
+                            value="4" 
+                            class="rating_element"
+                            name="star_rating"
+                            aria-label="well">
+
+                            <input type="radio" 
+                            value="5" 
+                            class="rating_element"
+                            name="star_rating"
+                            aria-label="excellent">
+                        </div>
                 </div>
     
-                    <p class="copyright">Copyright © 2018 Dlk • Design Life Kids</p>
+                    <p class="copyright_alt">Copyright © 2018 Dlk • Design Life Kids</p>
     
                     <p class="direct_line">Web Design — Direct Line Development</p>
             </div>  

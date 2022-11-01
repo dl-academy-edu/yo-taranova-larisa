@@ -55,7 +55,7 @@
 .input_line_email,
 .input_line,
 .message_input {
-    border-color: #000;
+    border: 1px solid;
 }
 
 .name_input {
@@ -70,6 +70,10 @@
     margin-bottom: 100px;
     margin-left: 50px;
     margin-right: 20px;
+}
+
+.rating_main {
+    margin-left: 6px;
 }
 
 .input_line_email{

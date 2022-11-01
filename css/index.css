@@ -204,13 +204,52 @@ footer {
 .banner_01 {
     font-family: 'Montserrat', sans-serif;
     opacity: 0.05;
+    z-index: 1;
+    font-size: 74px;
+}
+
+.banner_pages_button {
+    width: 31px;
+    height: 3px;
+    background-color: #D6CAC2;
+    border: none;
+}
+
+.banner_pages_button-alt {
+    width: 31px;
+    height: 3px;
+    background-color: #1E0606;
+    opacity: 0.6;
+    border: none;
+}
+
+.banner_div {
     position: absolute;
     z-index: 1;
-    top: 240px;
-    left: 360px;
-    width: 61px;
-    height: 74px;
-    font-size: 60px;
+    left: 31px;
+}
+
+.banner_pages {
+    margin-top: 0;
+}
+
+.banner_pages_button:active {
+    background-color: #1E0606;
+    opacity: 0.6;
+}
+
+.banner_pages_button-alt:active {
+    background-color: #1E0606;
+    opacity: 0.6;
+}
+
+.banner_pages_button:hover {    
+    background-color: #1E0606;
+    opacity: 0.6;
+}
+
+.banner_alt {
+    display: flex;
 }
 
 .banner_png {
@@ -223,6 +262,7 @@ footer {
 .banner .monster {
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
+    max-width: 307px;
 }
 
 .banner .monster {

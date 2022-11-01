@@ -4,14 +4,11 @@
 }
 
 .toys_button_vector_1 {
-    position: absolute;
-    top: 1540px;
+    margin-right: 457px;
 }
 
 .toys_button_vector_2 {
-    position: absolute;
-    top: 1540px;
-    left: 1500px;
+    margin-left: 457px;
 }
 
 .toys_button:hover {
@@ -22,6 +19,10 @@
     margin-bottom: 100px;
     margin-left: 50px;
     margin-right: 20px;
+}
+
+.rating_main {
+    margin-left: 6px;
 }
 
 .toys_button {
@@ -81,10 +82,7 @@
 }
 
 .blog_footer {
-    position: relative;
     display: flex;
-    padding-left: 473px;
-    padding-right: 473px;
     justify-content: space-between;
 }
 

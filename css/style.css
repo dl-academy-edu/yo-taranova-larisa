@@ -53,7 +53,7 @@ button:focus {
 
 button:active {
     background: #CFAF91;
-    border: #CFAF91;
+    border-color: #CFAF91;
 }
 
 .technical_element {
