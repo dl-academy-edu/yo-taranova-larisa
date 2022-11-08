@@ -27,11 +27,11 @@
 <body>
     <header class="container">
     <ul class="technical_references">
-        <a href="/pages/index.html"><img src="/static/DLK.svg" alt="Go to the main page"></a>
+            <li><a href="/pages/index.html"><img src="/static/DLK.svg" alt="Go to the main page"></a></li>
             <li><a href="blog.html" class="technical_references blog technical_element">BLOG</a></li>
             <li><a href="catalog.html" class="technical_references catalog_header technical_element">CATALOG</a></li>
             <li><a href="#" class="technical_references about_us technical_element">ABOUT US</a></li>
-                <img src="/static/loupe.jpg" alt="#" class="loupe">
+            <li><img src="/static/loupe.jpg" alt="#" class="loupe"></li>
             <li><a href="/pages/contact-us.html" class="technical_references contact technical_element">CONTACT US</a></li>
     </ul>
     </header>
@@ -114,12 +114,12 @@
 
         <section class="main_bottom">
             <div class="kids">
-                <h2 class="kids_head">DESING LIFE KIDS</h2>
-                    <ul class="kids_section">
-                        <li><p class="kids_italic">About Us</p></li>
-                        <li><p class="kids_text">Some days i feel like i've been working on dlk my entire life and there are other days that i'am completely shocked that four years have flown by. It's simply magical.</p></li> 
-                    </ul>
-                <a href="#" class="kids_button">BUY NOW</a>
+                    <h2 class="kids_head">DESING LIFE KIDS</h2>
+                    <div class="kids_background">
+                        <p class="kids_italic">About Us</p></li>
+                        <p class="kids_text">Some days i feel like i've been working on dlk my entire life and there are other days that i'am completely shocked that four years have flown by. It's simply magical.</p>
+                        <a href="#" class="kids_button">BUY NOW</a>
+                    </div>
             </div>
             <div class="contacts">
                 <h2 class="contacts_head">CONTACTS</h2>
@@ -257,27 +257,36 @@
 
 
 
-            <form action="/pages/index.html" class="modal_window">
-                <div class="contact_name">
-                    <button class="modal_button"><img src="/static/cross.png" alt="cross"></button>
+        <form action="/pages/index.html" class="modal_window_close">
+            <div class="contact_name">
+                <button class="modal_button"><img src="/static/cross.png" alt="cross"></button>
                     <div class="imput_text_list">
-                        <p class="name_text">Name</p>
-                            <input type="text" class="name_input">
-                        <p class="phone_text list">Phone</p>
-                            <input type="text" class="input_line">
-                        <p class="email_text" >Email</p>
-                            <input type="Email" class="input_line_email">
-                        <p class="message_text">Message</p>
-                            <input type="text" class="message_input">
+                                <p>Name</p>
+                                <input type="text" class="name_input">
+                        <div class="contact_div">
+                            <li>
+                                <p>Phone</p>
+                                <input type="text" class="input_line">
+                            </li>
+                            <li>
+                                <p class="email_text">Email</p>
+                                <input type="Email" class="input_line_email"></li>
+                        </div>
+                                <p>Message</p>
+                                <input type="text" class="message_input">
                     </div>
-                        <label for="checkbox_message_id" class="checkbox_label">
-                            <input type="checkbox" id="checkbox_message_id" class="checkbox_message">
-                        <p class="checkbox_text">By clicking on the button, you consent to the processing of your personal data</p></label>
-                    <button class="contact_button"><strong>SUBMIT</strong></button>
-                </div>
-            </form>
+                    <div class="checkbox_list">
+                        <input class="input-check" type="checkbox" id="consent" name="consent">
 
-            <script src="/javascript/index.min.js"></script>
+                        <label for="consent" class="checkbox_label"><p class="checkbox_text">By clicking on the button, you consent to the processing of your personal data</p></label>
+
+                        <button disabled="disabled" class="button-disabled" type="button">SUBMIT</button>
+                        
+                        <button class="button-form" type="button">SUBMIT</button> 
+                    </div>
+            </div>
+        </form>
+    <script src="/javascript/index.js"></script>
 
 </body>
 </html>

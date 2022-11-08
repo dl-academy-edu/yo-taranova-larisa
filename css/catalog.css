@@ -114,3 +114,8 @@
 }
 
 
+.catalog_list {
+    width: 280px;
+    height: 270px;
+    background: #000;
+}

@@ -86,14 +86,10 @@
     justify-content: space-between;
 }
 
-.catalog_name {
+.catalog_name,
+.catalog_price {
     color: black;
     font-family: 'Open Sans', sans-serif
-}
-
-.catalog_price {
-    font-family: 'Open Sans', sans-serif;
-    color: black;
 }
 
 .color_checkbox,
@@ -120,8 +116,6 @@
     right: 85px;
     top: 15px;
 }
-
-
 
 .delivery_text {
     position: relative;
@@ -269,6 +263,53 @@ input [type=range] {
     background: #F3D0DB;
 }
 
+
+
 .catalog_list {
     position: relative;
+}
+
+.catalog_text-sharky,
+.catalog_text-brass,
+.catalog_text-cibo,
+.catalog_text-gatcha,
+.catalog_text-christmas,
+.catalog_text-tangle {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    background: #E5EAF8;
+    padding-top: 82px;
+    padding-bottom: 96px;
+    width: 207px;
+}
+
+.catalog_element-sharky,
+.catalog_element-brass,
+.catalog_element-cibo,
+.catalog_element-gatcha,
+.catalog_element-christmas,
+.catalog_element-tangle {
+    opacity: 0;
+    position: absolute;
+    left: 87px;
+    top: 89px;
+}
+
+.catalog_element-sharky:hover,
+.catalog_element-brass:hover,
+.catalog_element-cibo:hover,
+.catalog_element-gatcha:hover,
+.catalog_element-christmas:hover,
+.catalog_element-tangle:hover {
+    opacity: 0.9;
+}
+
+.catalog_element-sharky:active,
+.catalog_element-brass:active,
+.catalog_element-cibo:active,
+.catalog_element-gatcha:active,
+.catalog_element-christmas:active,
+.catalog_element-tangle:active {
+    opacity: 0.67;
 }

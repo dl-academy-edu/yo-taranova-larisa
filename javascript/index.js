@@ -1,6 +1,7 @@
-var modal = document.querySelector('.modal_window')
+var modal = document.querySelector('.modal_window_close')
 var BannerButton = document.querySelector('.banner_button')
 var modalButton = document.querySelector('.modal_button')
+/* ModalWindow */
 
 BannerButton.addEventListener('click', function() {
     modal.classList.add('modal_window_open')

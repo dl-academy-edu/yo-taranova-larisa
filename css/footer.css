@@ -64,6 +64,7 @@ footer {
 
 .rating_text {
     margin-right: 25px;
+    color: white;
 }
 
 .rating_main {
@@ -92,6 +93,10 @@ footer {
 
 .rating_element:checked {
     background-image: url(/static/Star_active.svg);
+}
+
+.rating_element:hover + .rating_text {
+    color: #C29974;
 }
 
 .rating_element:nth-of-type(1) {
@@ -196,8 +201,6 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-
-
 
 .footer_link_element:hover {
     opacity: 0.6;
