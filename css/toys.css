@@ -55,6 +55,14 @@
     font-family: 'Bona Nova', serif;
     color: black;
     font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.toys_list:hover,
+.toys_list:active,
+.toys_list:hover {
+    opacity: 0.6;
 }
 
 .technical::after {

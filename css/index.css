@@ -2,6 +2,8 @@ footer {
     margin-top: 50px;
 }
 
+
+
 .pages_list {
     display: flex;
     padding: 22px;
@@ -113,9 +115,6 @@ footer {
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
     max-width: 307px;
-}
-
-.banner .monster {
     padding-left: 133px;
     padding-top: 89px;
     padding-bottom: 20px;
@@ -170,13 +169,17 @@ footer {
 }
 
 .apparel:hover,
-.apparel:active,
+.apparel:active
+.apparel:focus,
 .holiday:hover,
 .holiday:active,
+.holiday:focus,
 .toys:hover,
 .toys:active,
+.toys:focus,
 .accessories:hover,
-.accessories:active {
+.accessories:active
+.accessories:focus {
     text-decoration:underline
 }
 
@@ -282,7 +285,8 @@ footer {
     max-width: 1113px;
 }
 
-.women_button:hover {
+.women_button:hover,
+.women_button:focus {
     background: #C29974;
     border: #C29974;;
 }
@@ -337,7 +341,8 @@ footer {
     color: white; 
 }
 
-.kids_button:hover {
+.kids_button:hover,
+.kids_button:focus {
     background: #C29974;
     border: #C29974;;
 }
@@ -409,6 +414,12 @@ footer {
 }
 
 /* Modal Window */
+
+.input-check:disabled + .checkbox_label::before,
+.checkbox_text {
+    opacity: 0.6;
+}
+
 .imput_text_list {
     border: #000;
     width: 600px;
@@ -562,6 +573,7 @@ footer {
 .checkbox_text {
     cursor: pointer;
     margin-left: 32px;
+    opacity: 1;
 }
 
 .input-check {
@@ -581,4 +593,5 @@ footer {
     border: 2px solid #C29974;
     background: transparent;
     border-radius: 20%;
+    opacity: 1;
 }

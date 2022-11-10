@@ -27,6 +27,19 @@
     font-size: 26px;
 }
 
+.left {
+    margin-right: 20px;
+}
+
+.right {
+    margin-left: 20px;
+}
+
+.pages:hover,
+.pages:active {
+    opacity: 0.6;
+}
+
 .name_text,
 .phone_text,
 .email_text,
@@ -124,7 +137,7 @@
     border: 2px solid #C29974;
     background-color: transparent;
     border-radius: 20%;
-    top: 786px;
+    top: 776px;
     left: 377px;
 }
 
@@ -134,7 +147,7 @@
     display: block;
     height: 19px;
     width: 19px;
-    top: 790px;
+    top: 780px;
     left: 380px;
     opacity: 0;
 }

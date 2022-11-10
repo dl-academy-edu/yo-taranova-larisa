@@ -17,6 +17,16 @@ a {
     display: flex;
     padding-top: 20px;
     color: black;
+    font-size: 14px;
+}
+
+.DLK {
+    width: 100px;
+    height: 52px;
+}
+
+.DLK:focus {
+    opacity: 0.4;
 }
 
 .catalog_header {
@@ -27,7 +37,7 @@ a {
     max-width: 18px;
     max-height: 18px;
     margin-top: 20px;
-    margin-left: 640px;
+    margin-left: 677px;
     margin-right: 24px;
     background: white;
 }
@@ -64,6 +74,7 @@ button:active {
     opacity: 0.6;
 }
 
-.technical_element:active {
+.technical_element:active,
+.technical_element:focus {
     opacity: 0.4;
 }

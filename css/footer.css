@@ -13,7 +13,7 @@ footer {
 }
 
 .footer_element_heading {
-    margin-bottom: 52px;
+    margin-bottom: 90px;
     justify-content: space-between;
     font-family: 'Open Sans', sans-serif;
 }
@@ -158,11 +158,12 @@ footer {
     right: 10px;
 }
 
-.forums_element:hover {
+.forums_element:hover{
     opacity: 0.6;
 }
 
-.forums_element:active {
+.forums_element:active,
+.forums_element:focus {
     opacity: 0.4;
 }
 
@@ -199,13 +200,21 @@ footer {
 
 .footer_flex {
     display: flex;
-    justify-content: space-between;
 }
 
 .footer_link_element:hover {
     opacity: 0.6;
 }
 
-.footer_link_element:active {
+.footer_link_element:active,
+.footer_link_element:focus {
     opacity: 0.4;
+}
+
+.navigation {
+    margin-right: 242px;
+}
+
+.information {
+    margin-right: 183px;
 }
