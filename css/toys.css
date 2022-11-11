@@ -4,18 +4,25 @@
 }
 
 .toys_button_vector_1 {
-    position: absolute;
-    top: 1540px;
+    margin-right: 457px;
 }
 
 .toys_button_vector_2 {
-    position: absolute;
-    top: 1540px;
-    left: 1500px;
+    margin-left: 457px;
 }
 
 .toys_button:hover {
     opacity: 0.6;
+}
+
+.blog {
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.rating_main {
+    margin-left: 6px;
 }
 
 .toys_button {
@@ -48,6 +55,14 @@
     font-family: 'Bona Nova', serif;
     color: black;
     font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.toys_list:hover,
+.toys_list:active,
+.toys_list:hover {
+    opacity: 0.6;
 }
 
 .technical::after {
@@ -56,7 +71,7 @@
     position: absolute;
     top: 360px;
     left: 0px;
-    width: 1850px;
+    width: 100%;
     min-height: 254px;
     background: #E1F0F7;
     z-index: -1;
@@ -75,21 +90,14 @@
 }
 
 .blog_footer {
-    position: relative;
     display: flex;
-    padding-left: 473px;
-    padding-right: 473px;
     justify-content: space-between;
 }
 
-.catalog_name {
+.catalog_name,
+.catalog_price {
     color: black;
     font-family: 'Open Sans', sans-serif
-}
-
-.catalog_price {
-    font-family: 'Open Sans', sans-serif;
-    color: black;
 }
 
 .color_checkbox,
@@ -116,8 +124,6 @@
     right: 85px;
     top: 15px;
 }
-
-
 
 .delivery_text {
     position: relative;
@@ -180,7 +186,10 @@
     opacity: 0;
 }
 
-
+input [type=range] {
+    color: #C29974;
+    background: #E1F0F7;
+}
 
 .list_name {
     font-family: 'Open Sans', sans-serif;
@@ -262,6 +271,53 @@
     background: #F3D0DB;
 }
 
+
+
 .catalog_list {
     position: relative;
+}
+
+.catalog_text-sharky,
+.catalog_text-brass,
+.catalog_text-cibo,
+.catalog_text-gatcha,
+.catalog_text-christmas,
+.catalog_text-tangle {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    background: #E5EAF8;
+    padding-top: 82px;
+    padding-bottom: 96px;
+    width: 207px;
+}
+
+.catalog_element-sharky,
+.catalog_element-brass,
+.catalog_element-cibo,
+.catalog_element-gatcha,
+.catalog_element-christmas,
+.catalog_element-tangle {
+    opacity: 0;
+    position: absolute;
+    left: 87px;
+    top: 89px;
+}
+
+.catalog_element-sharky:hover,
+.catalog_element-brass:hover,
+.catalog_element-cibo:hover,
+.catalog_element-gatcha:hover,
+.catalog_element-christmas:hover,
+.catalog_element-tangle:hover {
+    opacity: 0.9;
+}
+
+.catalog_element-sharky:active,
+.catalog_element-brass:active,
+.catalog_element-cibo:active,
+.catalog_element-gatcha:active,
+.catalog_element-christmas:active,
+.catalog_element-tangle:active {
+    opacity: 0.67;
 }

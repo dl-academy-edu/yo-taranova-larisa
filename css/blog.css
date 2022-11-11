@@ -2,6 +2,7 @@
     opacity: 0.6;
 }
 
+.blog_button:active,
 .blog_button:active {
     opacity: 0.4;
 }
@@ -32,6 +33,20 @@
     width: 380px;
 }
 
+.left {
+    margin-right: 20px;
+}
+
+.right {
+    margin-left: 20px;
+}
+
+.blog {
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
 .best_financial {
     width: 380px;
 }
@@ -45,9 +60,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.rating_main {
+    margin-left: 6px;
+}
+
 .head:active,
 .head:hover {
-    text-decoration:underline
+    text-decoration: underline;
 }
 
 .text {
@@ -74,19 +93,18 @@
 }
 
 .blog_footer {
-    position: relative;
     display: flex;
-    padding-left: 473px;
-    padding-right: 473px;
-    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .blog_button_vector_1 {
-    position: absolute;
+    margin-right: 457px;
 }
 
 .blog_button_vector_2 {
-    position: absolute;
-    top: 1240px;
-    left: 1500px;
+    margin-left: 457px;
+}
+
+.blog_button {
+    margin-left: 67px;
 }

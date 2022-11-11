@@ -4,10 +4,6 @@
     padding-inline-start: 0px;
 }
 
-.container-header {
-    margin: 0 auto;
-}
-
 .container {
     max-width: 1180px;
     margin: 0 auto;
@@ -17,34 +13,36 @@ a {
     color: white;
 }
 
-
-
 .technical_references {
     display: flex;
     padding-top: 20px;
-    margin: 10px;
     color: black;
+    font-size: 14px;
 }
 
 .DLK {
-    position: absolute;
-    top: 45px;
-    left: 336px;
+    width: 100px;
+    height: 52px;
 }
 
-.blog { 
-    padding-left: 535px;
-    margin-bottom: 100px;
+.DLK:focus {
+    opacity: 0.4;
+}
+
+.catalog_header {
+    margin-right: 20px;
 }
 
 .loupe {
-    position: absolute;
-    top: 60px;
-    right: 450px;
+    max-width: 18px;
+    max-height: 18px;
+    margin-top: 20px;
+    margin-left: 677px;
+    margin-right: 24px;
+    background: white;
 }
 
 .contact {
-    padding-left: 610px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -65,7 +63,7 @@ button:focus {
 
 button:active {
     background: #CFAF91;
-    border: #CFAF91;
+    border-color: #CFAF91;
 }
 
 .technical_element {
@@ -76,6 +74,7 @@ button:active {
     opacity: 0.6;
 }
 
-.technical_element:active {
+.technical_element:active,
+.technical_element:focus {
     opacity: 0.4;
 }

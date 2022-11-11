@@ -17,31 +17,23 @@
     <title>Blog</title>
 </head>
 <body>
-    <header>
-        <a href="/pages/index.html"><img src="/static/DLK.svg" alt="DLK" class="DLK"></a>
+    <header class="container">
         <ul class="technical_references">
-            <li>
-                    <a href="blog.html" class="technical_references blog technical_element">BLOG</a>
-            </li>
-            <li>
-                    <a href="catalog.html" class="technical_references technical_element">CATALOG</a>
-            </li>
-            <li>
-                    <a href="#" class="technical_references technical_element">ABOUT US</a>
-            </li>
-            <li>
-                    <img src="/static/loupe.jpg" alt="#" class="loupe">
-                    <a href="/pages/contact-us.html" class="technical_references contact technical_element"><strong>CONTACT US</strong></a>
-            </li>
-    </ul>
-    </header>
+                <li><a href="/pages/index.html"><img src="/static/DLK.svg" alt="Go to the main page"></a></li>
+                <li><a href="blog.html" class="technical_references blog technical_element">BLOG</a></li>
+                <li><a href="catalog.html" class="technical_references catalog_header technical_element">CATALOG</a></li>
+                <li><a href="#" class="technical_references about_us technical_element">ABOUT US</a></li>
+                <li><img src="/static/loupe.jpg" alt="#" class="loupe"></li>
+                <li><a href="/pages/contact-us.html" class="technical_references contact technical_element">CONTACT US</a></li>
+        </ul>
+        </header>
 
 <main class="container">
     <section>
     <h1 class="blog_head">BLOG</h1>
-    <a href="index.html" class="category_pages">Home</a>
+    <a href="index.html" class="category_pages left">Home</a>
     <img src="/static/button3.svg" alt="">
-    <a href="#" class="category_pages">Blog</a>
+    <a href="#" class="category_pages right">Blog</a>
     <ul class="blog_1">
         <li class="top_5">
             <img src="/static/lego.png" alt="">
@@ -81,14 +73,14 @@
         </li>
     </ul>
     </section>
-    <img src="/static/vector_left.svg" alt="" class="blog_button_vector_1">
     <div class="blog_footer">
+    <img src="/static/vector_left.svg" alt="" class="blog_button_vector_1">
     <a href="#" class="blog_button_alt">1</a>
     <a href="#" class="blog_button">2</a>
     <a href="#" class="blog_button">3</a>
     <a href="#" class="blog_button">4</a>
-    </div>
     <img src="/static/vector_right.svg" alt="" class="blog_button_vector_2">
+    </div>
 </main>
 
 <footer class="container_footer">
@@ -149,13 +141,11 @@
                 <li>
                     <ul class="email_list">
                         <li>
-                            <input type="Email" class="footer_email" id="email"></li>
+                            <input type="Email" class="footer_email" id="email" placeholder="Email"></li>
                         <li>
                             <button class="email_button">JOIN</button>
                         </li>
                     </ul>
-                </li>
-                <li>
                 </li>
                 <li>
                     <ul class="forums_list">
@@ -177,12 +167,42 @@
         </div>
     
             <div class="footer_bottom">
-                <div>
-                    <p class="rating">Company Rating</p>
-                    <img src="/static/star.png" alt="Company Rating" class="footer_img">
+                <div class="main_rating">
+                    <p class="rating_text">Company Rating</p>
+                        <div class="rating_main">
+                            <input type="radio" 
+                            value="1" 
+                            class="rating_element"
+                            name="star_rating"
+                            aria-label="terribly">
+
+                            <input type="radio" 
+                            value="2" 
+                            class="rating_element"
+                            name="star_rating"
+                            aria-label="badly">
+
+                            <input type="radio" 
+                            value="3" 
+                            class="rating_element"
+                            name="star_rating"
+                            aria-label="fine">
+
+                            <input type="radio" 
+                            value="4" 
+                            class="rating_element"
+                            name="star_rating"
+                            aria-label="well">
+
+                            <input type="radio" 
+                            value="5" 
+                            class="rating_element"
+                            name="star_rating"
+                            aria-label="excellent">
+                        </div>
                 </div>
     
-                    <p class="copyright">Copyright © 2018 Dlk • Design Life Kids</p>
+                    <p class="copyright_alt">Copyright © 2018 Dlk • Design Life Kids</p>
     
                     <p class="direct_line">Web Design — Direct Line Development</p>
             </div>  

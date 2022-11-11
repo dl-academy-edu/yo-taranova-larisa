@@ -11,8 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/style.min.css">
     <link rel="stylesheet" href="/css/index.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
     <link rel="stylesheet" href="/css/footer.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,30 +25,30 @@
     <title>Main</title>
 </head>
 <body>
-    <header class="container-header">
-        <a href="/pages/index.html"><img src="/static/DLK.svg" alt="DLK" class="DLK"></a>
-        <ul class="technical_references">
-            <li>
-                <a href="blog.html" class="technical_references blog technical_element">BLOG</a>
-            </li>
-            <li>
-                <a href="catalog.html" class="technical_references technical_element">CATALOG</a>
-            </li>
-            <li>
-                <a href="#" class="technical_references technical_element">ABOUT US</a>
-            </li>
-                <img src="/static/loupe.jpg" alt="#" class="loupe">
-            <li>
-                <a href="/pages/contact-us.html" class="technical_references contact technical_element"><strong>CONTACT US</strong></a>
-            </li>
+    <header class="container">
+    <ul class="technical_references">
+            <li><a href="/pages/index.html"><img src="/static/DLK.svg" alt="Go to the main page" class="DLK"></a></li>
+            <li><a href="blog.html" class="technical_references blog technical_element">BLOG</a></li>
+            <li><a href="catalog.html" class="technical_references catalog_header technical_element">CATALOG</a></li>
+            <li><a href="#" class="technical_references about_us technical_element">ABOUT US</a></li>
+            <li><img src="/static/loupe.jpg" alt="#" class="loupe"></li>
+            <li><a href="/pages/contact-us.html" class="technical_references contact technical_element">CONTACT US</a></li>
     </ul>
     </header>
-
+  
     <main class="container">
-            <p class="banner_01">01</p>
-            <img src="/static/Banner-button.png" alt="" class="banner_png">
         <section class="banner">
-                    <h1 class="banner monster">THE OOH NOO <br> COLLECTION</h1>
+            <div class="banner_div">
+                <span class="banner_01">01</span>
+                <ul class="banner_pages">
+                    <li><button class="banner_pages_button-alt"></button></li>
+                    <li><button class="banner_pages_button"></button></li>
+                    <li><button class="banner_pages_button"></button></li>
+                    <li><button class="banner_pages_button"></button></li>
+                </ul>
+            </div>
+
+                 <h1 class="banner monster">THE OOH NOO COLLECTION</h1>
                     <p class="banner crimson">Designed in Slovenia</p>
                     <button class="banner_button">EXPLORE NOW</button>
             <img class="banner_img" src="/static/monster.png" alt="">
@@ -59,32 +59,32 @@
             <h2 class="category_products">CATEGORY PRODUCTS</h2>
             <ul class="catalog">
                 <li>
-                    <img src="/static/sweater.png" alt="">
+                    <img src="/static/sweater.png" alt="" class="catalog_img" width="280px" height="270px">
                     <a href="#" class="products text apparel">APPAREL KIDS</a>
                 </li>
                 <li>
-                    <img src="/static/sock.png" alt="">
+                    <img src="/static/sock.png" alt="" class="catalog_img" width="280px" height="270px">
                     <a href="#" class="products text holiday">HOLIDAY SHOP</a>
                 </li>
                 <li>
-                    <img src="/static/deer.png" alt="">
+                    <img src="/static/deer.png" alt="" class="catalog_img" width="280px" height="270px">
                     <a href="/pages/toys.html" class="products text toys">TOYS</a>
                 </li>
                 <li>
-                    <img src="/static/monkey.png" alt="">
+                    <img src="/static/monkey.png" alt="" class="catalog_img" width="280px" height="270px">
                     <a href="#" class="products text accessories">ACCESSORIES</a>
                 </li>
             </ul>
             <div class="arrows">
-                <img src="/static/button1.svg" alt="" class="arrows_element">
-                <img src="/static/button2.svg" alt="" class="arrows_element">
+                <img src="/static/button1.svg" alt="" class="arrows_element" width="37px" height="37px">
+                <img src="/static/button2.svg" alt="" class="arrows_element" width="37px" height="37px">
                 <p class="modern arrows_element">Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</p>
             </div>
         </section>
 
          <section class="women">
             <div class="women_container">
-                <img src="/static/women.png" alt="" class="women_img">
+                <img src="/static/women.png" alt="" class="women_img" width="480px" height="559px">
                     <h2 class="women_heading">DELIVERY</h2>
                     <p class="women_color">Delivery</p>
                     <p class="women_italic">Guarantee</p>
@@ -95,36 +95,34 @@
             </div>          
         </section>
        
-        <div>
             <ul class="forums">
                 <li>
-                    <a href="#" class="forums items"><img src="/static//mail.svg" alt=""></a>
+                    <a href="#" class="forums items"><img src="/static//mail.svg" alt="" width="179px" height="61px"></a>
                 </li>
                 <li>
-                    <a href="#" class="forums items"><img src="/static/apple.svg" alt=""></a>
+                    <a href="#" class="forums items"><img src="/static/apple.svg" alt="" width="179px" height="61px"></a>
                 </li>
                 <li>
-                    <a href="#" class="forums items"><img src="/static/eltex.svg" alt=""></a>
+                    <a href="#" class="forums items"><img src="/static/eltex.svg" alt="" width="179px" height="61px"></a>
                 </li>
                 <li>
-                    <a href="#" class="forums items"><img src="/static/owox.svg" alt=""></a>
+                    <a href="#" class="forums items"><img src="/static/owox.svg" alt="" width="179px" height="61px"></a>
                 </li>
             </ul>
-        </div>
 
         <section class="main_bottom">
             <div class="kids">
                 <h2 class="kids_head">DESING LIFE KIDS</h2>
-                    <ul class="kids_section">
-                        <li><p class="kids_italic">About Us</p></li>
-                        <li><p class="kids_text">Some days i feel like i've been working on dlk my entire life and there are other days that i'am completely shocked that four years have flown by. It's simply magical.</p></li> 
-                    </ul>
-                <a href="#" class="kids_button">BUY NOW</a>
+                <div class="kids_background">
+                    <p class="kids_italic">About Us</p>
+                    <p class="kids_text">Some days i feel like i've been working on dlk my entire life and there are other days that i'am completely shocked that four years have flown by. It's simply magical.</p>
+                    <a href="#" class="kids_button">BUY NOW</a>
+                </div>
             </div>
             <div class="contacts">
                 <h2 class="contacts_head">CONTACTS</h2>
-                <p class="contacts_text">Some days i feel liked i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-                <img class="contacts_img" src="/static/map.png" alt="">
+                <p class="contacts_text">Some days i feel liked i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+                <img class="contacts_img" src="/static/map.png" alt="" width="483px" height="196px">
             </div>
         </section>
     </main>
@@ -132,7 +130,7 @@
     <footer class="container_footer">
         <section class="footer_main">
             <div class="footer_flex">
-                    <ul class="navigation">
+                <ul class="navigation">
                     <li>
                         <h3 class="footer_element_heading">Navigation</h3>
                     </li>
@@ -187,13 +185,11 @@
                     <li>
                         <ul class="email_list">
                             <li>
-                                <input type="Email" class="footer_email" id="email"></li>
+                                <input type="Email" class="footer_email" id="email" placeholder="Email"></li>
                             <li>
                                 <button class="email_button">JOIN</button>
                             </li>
                         </ul>
-                    </li>
-                    <li>
                     </li>
                     <li>
                         <ul class="forums_list">
@@ -215,9 +211,39 @@
             </div>
         
                 <div class="footer_bottom">
-                    <div>
-                        <p class="rating_alt">Company Rating</p>
-                        <img src="/static/star.png" alt="Company Rating" class="footer_img">
+                    <div class="main_rating">
+                        <p class="rating_text">Company Rating</p>
+                            <div class="rating_main">
+                                <input type="radio" 
+                                value="1" 
+                                class="rating_element"
+                                name="star_rating"
+                                aria-label="terribly">
+
+                                <input type="radio" 
+                                value="2" 
+                                class="rating_element"
+                                name="star_rating"
+                                aria-label="badly">
+
+                                <input type="radio" 
+                                value="3" 
+                                class="rating_element"
+                                name="star_rating"
+                                aria-label="fine">
+
+                                <input type="radio" 
+                                value="4" 
+                                class="rating_element"
+                                name="star_rating"
+                                aria-label="well">
+
+                                <input type="radio" 
+                                value="5" 
+                                class="rating_element"
+                                name="star_rating"
+                                aria-label="excellent">
+                            </div>
                     </div>
         
                         <p class="copyright_alt">Copyright © 2018 Dlk • Design Life Kids</p>
@@ -229,27 +255,37 @@
 
 
 
-            <form action="/pages/index.html" class="modal_window">
-                <div class="contact_name">
-                    <button class="modal_button"><img src="/static/cross.png" alt="cross"></button>
+        <form action="/pages/index.html" class="modal_window_close">
+            <div class="contact_name">
+                <button class="modal_button"><img src="/static/cross.png" alt="cross"></button>
                     <div class="imput_text_list">
-                        <p class="name_text">Name</p>
-                            <input type="text" class="name_input">
-                        <p class="phone_text list">Phone</p>
-                            <input type="text" class="input_line">
-                        <p class="email_text" >Email</p>
-                            <input type="Email" class="input_line_email">
-                        <p class="message_text">Message</p>
-                            <input type="text" class="message_input">
+                                <p>Name</p>
+                                <input type="text" class="name_input">
+                        <div class="contact_div">
+                            <div>
+                                <p>Phone</p>
+                                <input type="text" class="input_line">
+                            </div>
+                            <div>
+                                <p class="email_text">Email</p>
+                                <input type="Email" class="input_line_email">
+                            </div>
+                        </div>
+                                <p>Message</p>
+                                <input type="text" class="message_input">
                     </div>
-                        <label for="checkbox_message_id" class="checkbox_label">
-                            <input type="checkbox" id="checkbox_message_id" class="checkbox_message">
-                        <p class="checkbox_text">By clicking on the button, you consent to the processing of your personal data</p></label>
-                    <button class="contact_button"><strong>SUBMIT</strong></button>
-                </div>
-            </form>
+                    <div class="checkbox_list">
+                        <input class="input-check" type="checkbox" id="consent" name="consent">
 
-            <script src="/javascript/index.min.js"></script>
+                        <label for="consent" class="checkbox_label"><p class="checkbox_text">By clicking on the button, you consent to the processing of your personal data</p></label>
+
+                        <button disabled="disabled" class="button-disabled" type="button">SUBMIT</button>
+                        
+                        <button class="button-form" type="button">SUBMIT</button> 
+                    </div>
+            </div>
+        </form>
+    <script src="/javascript/index.min.js"></script>
 
 </body>
 </html>
