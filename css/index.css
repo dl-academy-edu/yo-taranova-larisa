@@ -31,7 +31,7 @@ footer {
 }
 
 .blog {
-    margin-bottom: 100px;
+    margin-bottom: 120px;
     margin-left: 60px;
     margin-right: 20px;
 }
@@ -47,10 +47,12 @@ footer {
     position: relative;
 }
 
-.banner .crimson {
+.banner_crimson {
     font-size: 20px;
-    padding-left: 133px;
+    padding-left: 135px;
     font-family: 'Crimson Text', serif;
+    margin-bottom: 20px;
+    margin-top: -9px;
 }
 
 .banner_01 {
@@ -58,6 +60,9 @@ footer {
     opacity: 0.05;
     z-index: 1;
     font-size: 60px;
+    position: absolute;
+    top: 19px;
+    right: -29px;
 }
 
 .banner_pages_button {
@@ -82,7 +87,8 @@ footer {
 }
 
 .banner_pages {
-    margin-top: 0;
+    margin-top: 88px;
+    margin-left: 1px;
 }
 
 .banner_pages_button:active {
@@ -111,31 +117,31 @@ footer {
     top: 300px;
 }
 
-.banner .monster {
+.banner_monster {
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
     max-width: 307px;
-    padding-left: 133px;
+    padding-left: 134px;
     padding-top: 89px;
-    padding-bottom: 20px;
 }
 
 .banner_button {
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
     margin-left: 133px;
     font-size: 16px;
     min-width: 161px;
     background: black;
     color: white;
     min-height: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 67px;
 }
 
 .banner_img {
     position: absolute;
-    right: 120px;
-    bottom: 30px;
+    right: 100px;
+    bottom: 10px;
 }
 
 .banner_footer {
@@ -144,8 +150,10 @@ footer {
     color: white;
     text-align: center;
     background: #C29974;
-    padding-top: 11px;
+    margin-top: 21px;
+    padding-top: 15px;
     padding-bottom: 11px;
+    font-size: 12px;
 }
 
 
@@ -160,10 +168,11 @@ footer {
     padding-inline-start: 0px;
     font-size: 26px;
     flex-wrap: wrap;
+    margin-bottom: 21px;
 }
 
 .category_products {
-    margin-top: 101px;
+    margin-top: 95px;
     font-size: 38px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -185,32 +194,32 @@ footer {
 
 .apparel {
     position: absolute;
-    top: 100px;
-    left: 75px;
+    top: 104px;
+    left: 76px;
     max-width: 129px;
     overflow: hidden;
 }
 
 .holiday {
     position: absolute;
-    top: 100px;
-    left: 380px;
+    top: 103px;
+    left: 379px;
     max-width: 123px;
     overflow: hidden;
 }
 
 .toys {
     position: absolute;
-    top: 115px;
-    right: 400px;
+    top: 119px;
+    right: 403px;
     max-width: 71px;
     overflow: hidden;
 }
 
 .accessories {
     position: absolute;
-    top: 115px;
-    right: 50px;
+    top: 120px;
+    right: 44px;
     max-width: 191px;
     overflow: hidden;
 }
@@ -225,7 +234,7 @@ footer {
 
 .arrows .arrows_element {
     padding-right: 6px;
-    margin-bottom: 120px;
+    margin-bottom: 92px;
 }
 
 
@@ -235,7 +244,7 @@ footer {
     display: block;
     position: absolute;
     top: -14px;
-    left: -50px ;
+    left: -62px ;
     width: 326px;
     height: 55px;
     background: #E1F0F7;
@@ -243,21 +252,24 @@ footer {
 }
 
 .women_color {
-    font-family: 'Brygada 1918', serif;
+    font-family: 'Crimson Text', serif;
     font-size: 26px;
     position: relative;
+    margin-top: 20px;
+    line-height: 21px;
 }
 
 .women_img {
-    z-index: -1;
-    position: absolute;
-    left: 0px;
-    top: -50px;
-    margin-bottom: 90px;
+    margin-bottom: 86px;
 }
 
 .women_text {
-    font-family: 'Open Sans', sans-serif
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+}
+
+.women_container {
+    display: flex;
 }
 
 .women_heading {
@@ -267,16 +279,16 @@ footer {
 }
 
 .women_italic {
-    font-family: 'Bona Nova', serif;
+    font-family: 'Crimson Text', serif;
     font-size: 26px;
 }
 
 .women_button {
     font-family: 'Open Sans', sans-serif;
     padding: 9px;
-    padding-left: 22px;
+    padding-left: 26px;
     padding-right: 22px;
-    min-width: 161px;
+    min-width: 120px;
     background: black;
     color: white;
 }
@@ -292,21 +304,19 @@ footer {
 }
 
 .women_text_alt {
-    margin-bottom: 35px;
+    margin-bottom: 48px;
     font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
 }
 
-
-.women {
-    position: relative;
-    padding-left: 580px;
-    padding-bottom: 148px;
-    max-width: 480px;
+.women_element {
+    margin-top: 32px;
+    margin-left: 123px;
+    width: 480px;
 }
-
-
 
 .forums {
+    margin-top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -359,7 +369,7 @@ footer {
 
 .main_bottom {
     display: flex;
-    margin-top: 100px;
+    margin-top: 66px;
     justify-content: space-between;
 }
 
@@ -389,7 +399,7 @@ footer {
     background: #E1F0F7;
     z-index: -1;
     top: 60px;
-    right: -30px;
+    right: -32px;
 }
 
 .contacts {

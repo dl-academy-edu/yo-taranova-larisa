@@ -2,17 +2,20 @@
     margin-left: 200px;
     font-family: 'Open Sans', sans-serif;
     width: 680px;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .product_description_main {
     margin-left: 200px;
     font-family: 'Montserrat', sans-serif;
     font-size: 38px;
+    line-height: 46px;
 }
 
 .category_pages {
     color: black;
-    font-family: 'Bona Nova', serif;
+    font-family: 'Crimson Text', serif;
     font-size: 20px;
 }
 
@@ -41,12 +44,13 @@
     padding-inline-start: 0px;
     display: flex;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 53px;
 }
 
 .blog {
-    margin-bottom: 100px;
-    margin-left: 50px;
-    margin-right: 20px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    margin-right: 11px;
 }
 
 .rating_main {
@@ -54,7 +58,7 @@
 }
 
 .catalog_2 {
-    margin-right: 110px;
+    margin-right: 100px;
     text-align: center;
     position: relative;
     font-size: 26px;
@@ -67,8 +71,16 @@
 
 
 
+.product_description_section {
+    margin-top: 55px;
+}
+
 .category_products_head {
     font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    margin-top: 18px;
+    margin-left: 1px;
+    margin-bottom: 15px;
 }
 
 .apparel_kids {
